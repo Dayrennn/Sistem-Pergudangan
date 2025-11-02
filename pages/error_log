@@ -1,0 +1,989 @@
+[31-May-2025 06:08:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:17 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:08:17 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:08:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:08:51 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:08:51 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:09:18 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:09:18 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:09:18 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:09:18 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:09:18 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:10:07 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:07 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:07 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:07 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:10:07 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:10:11 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:11 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:11 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:11 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:10:11 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:10:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:26 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:10:26 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:10:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:10:37 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:10:37 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:11:09 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:11:09 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:11:09 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 2
+[31-May-2025 06:11:09 Asia/Jakarta] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 184
+[31-May-2025 06:11:09 Asia/Jakarta] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/trix2829/public_html/pages/pelanggan-kepala-marketing.php on line 204
+[31-May-2025 06:40:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan-kepala-marketing.php on line 2
+[31-May-2025 06:40:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan-kepala-marketing.php on line 2
+[31-May-2025 06:40:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/penjualan-kepala-marketing.php on line 2
+[31-May-2025 07:36:10 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan.php on line 4
+[31-May-2025 07:36:10 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan.php on line 4
+[31-May-2025 07:36:10 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/pages/penjualan.php on line 4
+[31-May-2025 07:46:27 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/trix2829/public_html/pages/barang.php on line 3
+[31-May-2025 07:50:43 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:50:43 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:50:43 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:52:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:52:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:52:46 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:04 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:04 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:04 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:06 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:06 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:53:06 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:56:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:56:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:56:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:58:08 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:58:08 Asia/Jakarta] PHP Warning:  include(../koneksi.php): failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 07:58:08 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:00 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[31-May-2025 08:02:00 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[31-May-2025 08:02:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:02:46 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:03:11 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:03:11 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:03:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:03:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:04:41 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:04:41 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:04:50 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:04:50 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:05:02 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:05:02 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:05:09 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/hapus-produk.php on line 3
+[31-May-2025 08:05:09 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/hapus-produk.php on line 3
+[31-May-2025 08:05:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/hapus-produk.php on line 30
+[31-May-2025 08:05:09 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/trix2829/public_html/pages/hapus-produk.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/trix2829/public_html/pages/hapus-produk.php on line 30
+[31-May-2025 08:07:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:07:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:07:48 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/hapus-produk.php on line 3
+[31-May-2025 08:07:48 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/hapus-produk.php on line 3
+[31-May-2025 08:07:48 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/hapus-produk.php on line 30
+[31-May-2025 08:07:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/trix2829/public_html/pages/hapus-produk.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/trix2829/public_html/pages/hapus-produk.php on line 30
+[31-May-2025 08:09:19 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:09:19 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:09:27 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:09:27 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:08 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:08 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:29 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:29 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:35 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:54 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:54 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:56 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:10:56 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 08:11:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan.php on line 4
+[31-May-2025 08:11:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjualan.php on line 4
+[31-May-2025 08:11:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjualan.php on line 7
+[31-May-2025 08:12:21 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/supplier.php on line 2
+[31-May-2025 08:12:21 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/supplier.php on line 2
+[31-May-2025 08:12:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/supplier.php on line 53
+[31-May-2025 08:12:21 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/supplier.php:53
+Stack trace:
+#0 /home/trix2829/public_html/pages/supplier.php(53): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/supplier.php on line 53
+[31-May-2025 08:13:21 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/supplier.php on line 2
+[31-May-2025 08:13:21 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/supplier.php on line 2
+[31-May-2025 08:13:21 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/supplier.php on line 53
+[31-May-2025 08:13:21 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/supplier.php:53
+Stack trace:
+#0 /home/trix2829/public_html/pages/supplier.php(53): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/supplier.php on line 53
+[31-May-2025 08:15:35 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan.php on line 2
+[31-May-2025 08:15:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/pelanggan.php on line 2
+[31-May-2025 08:15:35 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/pelanggan.php on line 184
+[31-May-2025 08:15:35 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/pelanggan.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/pelanggan.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/pelanggan.php on line 184
+[31-May-2025 08:55:39 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 7
+[31-May-2025 08:55:39 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 7
+[31-May-2025 08:55:39 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 120
+[31-May-2025 08:55:39 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/penjadwalan-pembelian.php:120
+Stack trace:
+#0 /home/trix2829/public_html/pages/penjadwalan-pembelian.php(120): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 120
+[31-May-2025 08:57:23 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/update_penjadwalan.php on line 2
+[31-May-2025 08:57:23 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/update_penjadwalan.php on line 2
+[31-May-2025 08:57:23 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/update_penjadwalan.php on line 24
+[31-May-2025 08:57:23 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/update_penjadwalan.php:24
+Stack trace:
+#0 /home/trix2829/public_html/pages/update_penjadwalan.php(24): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/update_penjadwalan.php on line 24
+[31-May-2025 08:59:06 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/hapus_penjadwalan.php on line 3
+[31-May-2025 08:59:06 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/hapus_penjadwalan.php on line 3
+[31-May-2025 08:59:06 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/hapus_penjadwalan.php on line 28
+[31-May-2025 08:59:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/trix2829/public_html/pages/hapus_penjadwalan.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/trix2829/public_html/pages/hapus_penjadwalan.php on line 28
+[31-May-2025 09:00:23 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-keuangan.php on line 5
+[31-May-2025 09:00:23 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-keuangan.php on line 5
+[31-May-2025 09:00:23 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-keuangan.php on line 52
+[31-May-2025 09:00:23 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-keuangan.php:52
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-keuangan.php(52): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-keuangan.php on line 52
+[31-May-2025 09:05:09 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-pembelian.php on line 2
+[31-May-2025 09:05:09 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-pembelian.php on line 2
+[31-May-2025 09:05:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-pembelian.php on line 133
+[31-May-2025 09:05:09 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-pembelian.php:133
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-pembelian.php(133): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-pembelian.php on line 133
+[31-May-2025 09:11:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-keuangan-komisaris.php on line 5
+[31-May-2025 09:11:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-keuangan-komisaris.php on line 5
+[31-May-2025 09:11:37 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-keuangan-komisaris.php on line 52
+[31-May-2025 09:11:37 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-keuangan-komisaris.php:52
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-keuangan-komisaris.php(52): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-keuangan-komisaris.php on line 52
+[31-May-2025 09:15:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 09:15:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:00:16 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/trix2829/public_html/pages/barang-direktur.php on line 4
+[31-May-2025 10:02:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:02:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:03:18 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan-direktur.php on line 4
+[31-May-2025 10:03:18 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjualan-direktur.php on line 4
+[31-May-2025 10:03:18 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjualan-direktur.php on line 7
+[31-May-2025 10:04:34 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php on line 7
+[31-May-2025 10:04:34 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php on line 7
+[31-May-2025 10:04:34 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php on line 120
+[31-May-2025 10:04:34 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php:120
+Stack trace:
+#0 /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php(120): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/penjadwalan-pembelian-direktur.php on line 120
+[31-May-2025 10:06:03 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 2
+[31-May-2025 10:06:03 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 2
+[31-May-2025 10:06:03 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 134
+[31-May-2025 10:06:03 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-pembelian-direktur.php:134
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-pembelian-direktur.php(134): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 134
+[31-May-2025 10:06:58 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/proses-pembelian-direktur.php on line 2
+[31-May-2025 10:06:58 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/proses-pembelian-direktur.php on line 2
+[31-May-2025 10:06:58 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/proses-pembelian-direktur.php on line 13
+[31-May-2025 10:06:58 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/proses-pembelian-direktur.php:15
+Stack trace:
+#0 /home/trix2829/public_html/pages/proses-pembelian-direktur.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/proses-pembelian-direktur.php on line 15
+[31-May-2025 10:08:53 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:08:53 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:09:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/proses-pembelian.php on line 2
+[31-May-2025 10:09:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/proses-pembelian.php on line 2
+[31-May-2025 10:09:17 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/proses-pembelian.php on line 13
+[31-May-2025 10:09:17 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/proses-pembelian.php:15
+Stack trace:
+#0 /home/trix2829/public_html/pages/proses-pembelian.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/proses-pembelian.php on line 15
+[31-May-2025 10:14:14 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:14:14 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 10:18:53 Asia/Jakarta] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 3
+[31-May-2025 10:20:35 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:20:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:20:51 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:20:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:20:53 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:20:53 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:44 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:44 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:50 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:50 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:56 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:21:56 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:14 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:14 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:17 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:53 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:22:53 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:03 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:03 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:11 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:11 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:25 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:25 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:27 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:27 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:23:30 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan-kepala-gudang.php on line 2
+[31-May-2025 10:23:30 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjualan-kepala-gudang.php on line 2
+[31-May-2025 10:23:30 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjualan-kepala-gudang.php on line 3
+[31-May-2025 10:27:35 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:27:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 10:28:14 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/supplier-kepala-gudang.php on line 2
+[31-May-2025 10:28:14 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/supplier-kepala-gudang.php on line 2
+[31-May-2025 10:28:14 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/supplier-kepala-gudang.php on line 53
+[31-May-2025 10:28:14 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/supplier-kepala-gudang.php:53
+Stack trace:
+#0 /home/trix2829/public_html/pages/supplier-kepala-gudang.php(53): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/supplier-kepala-gudang.php on line 53
+[31-May-2025 10:29:44 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:29:44 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:29:44 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php on line 23
+[31-May-2025 10:29:44 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php:23
+Stack trace:
+#0 /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php(23): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/penjadwalan-pembelian-kepala-gudang.php on line 23
+[31-May-2025 10:45:01 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:45:01 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:45:01 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 133
+[31-May-2025 10:45:01 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php:133
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php(133): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 133
+[31-May-2025 10:45:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:45:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:45:51 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 13
+[31-May-2025 10:45:51 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php:15
+Stack trace:
+#0 /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 15
+[31-May-2025 10:48:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:48:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 2
+[31-May-2025 10:48:55 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 13
+[31-May-2025 10:48:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php:15
+Stack trace:
+#0 /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/proses-pembelian-kepala-gudang.php on line 15
+[31-May-2025 10:54:09 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 2
+[31-May-2025 10:54:09 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 2
+[31-May-2025 10:54:09 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 184
+[31-May-2025 10:54:09 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/barang-staff-gudang.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/barang-staff-gudang.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 184
+[31-May-2025 10:56:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 2
+[31-May-2025 10:56:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 2
+[31-May-2025 10:56:13 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 184
+[31-May-2025 10:56:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/barang-staff-gudang.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/barang-staff-gudang.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 184
+[31-May-2025 10:58:40 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php on line 7
+[31-May-2025 10:58:40 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php on line 7
+[31-May-2025 10:58:40 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php on line 120
+[31-May-2025 10:58:40 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php:120
+Stack trace:
+#0 /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php(120): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/penjadwalan-pembelian-staff-gudang.php on line 120
+[31-May-2025 11:00:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 2
+[31-May-2025 11:00:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 2
+[31-May-2025 11:00:13 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 130
+[31-May-2025 11:00:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php:130
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php(130): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 130
+[31-May-2025 11:17:01 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/penjualan-kepala-keuangan.php on line 4
+[31-May-2025 11:17:01 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/penjualan-kepala-keuangan.php on line 4
+[31-May-2025 11:17:01 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/penjualan-kepala-keuangan.php on line 7
+[31-May-2025 11:19:20 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/supplier-kepala-keuangan.php on line 2
+[31-May-2025 11:19:20 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/supplier-kepala-keuangan.php on line 2
+[31-May-2025 11:19:20 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/supplier-kepala-keuangan.php on line 53
+[31-May-2025 11:19:20 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/supplier-kepala-keuangan.php:53
+Stack trace:
+#0 /home/trix2829/public_html/pages/supplier-kepala-keuangan.php(53): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/supplier-kepala-keuangan.php on line 53
+[31-May-2025 11:21:59 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 2
+[31-May-2025 11:21:59 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 2
+[31-May-2025 11:21:59 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 134
+[31-May-2025 11:21:59 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php:134
+Stack trace:
+#0 /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php(134): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 134
+[31-May-2025 11:23:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php on line 2
+[31-May-2025 11:23:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php on line 2
+[31-May-2025 11:23:13 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php on line 13
+[31-May-2025 11:23:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php:15
+Stack trace:
+#0 /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php(15): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/proses-pembelian-kepala-keuangan.php on line 15
+[31-May-2025 11:39:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 11:39:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 11:39:00 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 11:39:00 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/pelanggan-staff-gudang.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 11:39:30 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:39:30 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:39:45 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 11:39:45 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 11:39:45 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 11:39:45 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/pelanggan-staff-gudang.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 11:42:35 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:42:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:42:40 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:42:40 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:43:15 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:43:15 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:43:30 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:43:30 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:44:02 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:44:02 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:44:21 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:44:21 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:44:55 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:44:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:46:36 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:46:36 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-kepala-gudang.php on line 14
+[31-May-2025 11:46:48 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:46:48 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:48:36 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:48:36 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:50:16 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:50:16 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:50:16 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 441
+[31-May-2025 11:50:24 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:50:24 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:50:24 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 441
+[31-May-2025 11:51:08 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:51:08 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:51:08 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 442
+[31-May-2025 11:52:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:52:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:52:37 Asia/Jakarta] PHP Warning:  Undefined variable $query_produk_jadi_tampil in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 355
+[31-May-2025 11:52:37 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/trix2829/public_html/pages/barang-staff-gudang.php:355
+Stack trace:
+#0 /home/trix2829/public_html/pages/barang-staff-gudang.php(355): mysqli_fetch_assoc()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 355
+[31-May-2025 11:53:07 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:53:07 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:53:07 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 442
+[31-May-2025 11:54:54 Asia/Jakarta] PHP Parse error:  Unclosed '{' on line 356 in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 643
+[31-May-2025 11:55:06 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:55:06 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:55:06 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 444
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:55:54 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 11:56:52 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:56:52 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:56:52 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 458
+[31-May-2025 11:57:29 Asia/Jakarta] PHP Warning:  include(../notifikasi_stok.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:57:29 Asia/Jakarta] PHP Warning:  include(): Failed opening '../notifikasi_stok.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 14
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:57:41 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:44 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 11:59:59 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 12:00:14 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:14 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:37 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 367
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 368
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "kategori" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 369
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 374
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "barang_id" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 376
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined array key "nama_barang" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 377
+[31-May-2025 12:00:57 Asia/Jakarta] PHP Warning:  Undefined variable $supplierResult_barang in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 450
+[31-May-2025 12:05:02 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:05:02 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:05:11 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:05:11 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:05:19 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:05:19 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:07:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:07:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:07:18 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 12:07:18 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 2
+[31-May-2025 12:07:18 Asia/Jakarta] PHP Warning:  Undefined variable $conn in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 12:07:18 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php:184
+Stack trace:
+#0 /home/trix2829/public_html/pages/pelanggan-staff-gudang.php(184): mysqli_query()
+#1 {main}
+  thrown in /home/trix2829/public_html/pages/pelanggan-staff-gudang.php on line 184
+[31-May-2025 12:51:53 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 12:51:53 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:08:22 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:08:22 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:08:27 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:08:27 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:13:33 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:13:33 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:18:31 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 13:18:31 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 21:16:16 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[31-May-2025 21:16:16 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[03-Jun-2025 18:10:29 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[03-Jun-2025 18:10:29 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[04-Jun-2025 09:51:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[04-Jun-2025 09:51:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[04-Jun-2025 09:57:33 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[04-Jun-2025 09:57:33 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[05-Jun-2025 23:24:12 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[05-Jun-2025 23:24:12 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[08-Jun-2025 22:02:34 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 490
+[08-Jun-2025 22:02:34 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 491
+[09-Jun-2025 03:30:55 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian.php on line 169
+[09-Jun-2025 03:30:55 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian.php on line 170
+[09-Jun-2025 03:31:49 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 196
+[09-Jun-2025 03:31:49 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 197
+[09-Jun-2025 03:31:58 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian.php on line 169
+[09-Jun-2025 03:31:58 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian.php on line 170
+[09-Jun-2025 03:37:06 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 196
+[09-Jun-2025 03:37:06 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 197
+[09-Jun-2025 03:49:14 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 490
+[09-Jun-2025 03:49:14 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 491
+[10-Jun-2025 00:16:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 00:16:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 00:16:26 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[10-Jun-2025 00:16:26 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[10-Jun-2025 08:05:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:23 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:23 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:28 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:28 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:43 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:05:43 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:20:54 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 08:20:54 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 10:12:58 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 10:12:58 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[10-Jun-2025 10:12:58 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[10-Jun-2025 10:12:58 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[11-Jun-2025 10:36:26 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 490
+[11-Jun-2025 10:36:26 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 491
+[11-Jun-2025 10:55:59 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 86
+[11-Jun-2025 10:55:59 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 87
+[11-Jun-2025 13:06:57 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 196
+[11-Jun-2025 13:06:57 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 197
+[11-Jun-2025 13:12:30 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/pelanggan.php on line 235
+[11-Jun-2025 13:12:30 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/pelanggan.php on line 236
+[11-Jun-2025 13:15:41 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[11-Jun-2025 13:15:41 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[11-Jun-2025 13:15:41 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[11-Jun-2025 13:15:41 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[11-Jun-2025 22:56:49 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[11-Jun-2025 22:56:49 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 12:17:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 12:17:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 19:40:40 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 19:40:40 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 20:43:02 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[15-Jun-2025 20:43:02 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:13:32 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:13:32 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:20:35 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:20:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:27:41 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 03:27:41 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 07:38:31 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 07:38:31 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:08:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:08:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:08:49 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:08:49 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:14:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:14:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:15:01 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:15:01 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:19:39 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:19:39 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:19:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:19:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:22:04 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:22:04 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:22:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:22:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:24:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:24:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:19 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:19 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:34 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:34 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:50 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:25:50 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:26:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:26:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:22 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:22 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:23 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:23 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:35 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:27:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:31:25 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:31:25 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:32:11 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 08:32:11 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 09:14:19 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 09:14:19 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 09:14:19 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[16-Jun-2025 09:14:19 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[16-Jun-2025 09:14:42 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 490
+[16-Jun-2025 09:14:42 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 491
+[16-Jun-2025 09:15:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 09:15:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 09:15:17 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 449
+[16-Jun-2025 09:15:17 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 450
+[16-Jun-2025 11:30:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:30:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:31:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:31:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:31:50 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:31:50 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:38:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:38:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:38:26 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:38:26 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:39:33 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:39:33 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:39:36 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:39:36 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:40:25 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:40:25 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:40:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:40:46 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:41:43 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:41:43 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:42:39 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:42:39 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:43:41 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:43:41 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:44:10 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:44:10 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:51:10 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 11:51:10 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:18:57 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:18:57 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:19:24 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:19:24 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:28:22 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:28:22 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:30:10 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 196
+[16-Jun-2025 21:30:10 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 197
+[16-Jun-2025 21:30:17 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 196
+[16-Jun-2025 21:30:17 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 197
+[16-Jun-2025 21:30:30 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:30:30 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:49:48 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:49:48 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:49:57 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:49:57 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:51:48 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:51:48 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:52:00 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:52:00 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:52:10 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 21:52:10 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 22:50:51 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 22:50:51 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 23:07:49 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 23:07:49 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 23:08:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[16-Jun-2025 23:08:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[17-Jun-2025 02:11:49 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[17-Jun-2025 02:11:49 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[17-Jun-2025 02:54:19 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 193
+[17-Jun-2025 02:54:19 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 194
+[17-Jun-2025 02:56:44 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[17-Jun-2025 02:56:44 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[17-Jun-2025 03:46:37 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 83
+[17-Jun-2025 03:46:37 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 84
+[17-Jun-2025 14:52:35 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[17-Jun-2025 14:52:35 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[17-Jun-2025 20:50:32 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 83
+[17-Jun-2025 20:50:32 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 84
+[17-Jun-2025 20:53:37 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/pelanggan.php on line 232
+[17-Jun-2025 20:53:37 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/pelanggan.php on line 233
+[17-Jun-2025 20:54:01 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[17-Jun-2025 20:54:01 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[19-Jun-2025 15:55:48 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 83
+[19-Jun-2025 15:55:48 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 84
+[19-Jun-2025 17:58:04 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[19-Jun-2025 17:58:04 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[19-Jun-2025 17:58:04 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 446
+[19-Jun-2025 17:58:04 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 447
+[19-Jun-2025 18:08:32 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[19-Jun-2025 18:08:32 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[19-Jun-2025 21:25:33 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/pelanggan.php on line 232
+[19-Jun-2025 21:25:33 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/pelanggan.php on line 233
+[20-Jun-2025 07:59:05 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 07:59:05 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 07:59:33 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 07:59:33 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 07:59:37 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 07:59:37 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:00:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:00:46 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:08:34 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:08:34 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:08:44 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[20-Jun-2025 08:08:44 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:24:50 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:24:50 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:28:40 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:28:40 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:32:28 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 13:32:28 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 17:18:23 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 17:18:23 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 17:56:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[21-Jun-2025 17:56:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:48:32 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:48:32 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:13 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:13 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:44 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:44 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:46 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 10:50:46 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 11:13:42 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 11:13:42 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 16:58:24 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 16:58:24 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 17:03:17 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[22-Jun-2025 17:03:17 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 08:46:47 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 08:46:47 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 08:46:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 08:46:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 14:22:46 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian.php on line 166
+[23-Jun-2025 14:22:46 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian.php on line 167
+[23-Jun-2025 15:21:04 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 15:21:04 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[23-Jun-2025 15:21:04 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 446
+[23-Jun-2025 15:21:04 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 447
+[23-Jun-2025 17:56:36 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 167
+[23-Jun-2025 17:56:36 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 168
+[23-Jun-2025 20:35:42 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 167
+[23-Jun-2025 20:35:42 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 168
+[24-Jun-2025 00:50:19 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 167
+[24-Jun-2025 00:50:19 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 168
+[24-Jun-2025 04:14:10 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 167
+[24-Jun-2025 04:14:10 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-direktur.php on line 168
+[24-Jun-2025 13:06:33 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 83
+[24-Jun-2025 13:06:33 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 84
+[24-Jun-2025 16:44:49 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[24-Jun-2025 16:44:49 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[24-Jun-2025 16:44:49 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 446
+[24-Jun-2025 16:44:49 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 447
+[24-Jun-2025 19:37:11 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 193
+[24-Jun-2025 19:37:11 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 194
+[25-Jun-2025 00:25:28 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 167
+[25-Jun-2025 00:25:28 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-staff-gudang.php on line 168
+[25-Jun-2025 01:24:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[25-Jun-2025 01:24:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[25-Jun-2025 01:24:55 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 442
+[25-Jun-2025 01:24:55 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang-staff-gudang.php on line 443
+[25-Jun-2025 02:45:04 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 167
+[25-Jun-2025 02:45:04 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-kepala-keuangan.php on line 168
+[25-Jun-2025 03:15:10 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian.php on line 166
+[25-Jun-2025 03:15:10 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian.php on line 167
+[25-Jun-2025 08:55:36 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 167
+[25-Jun-2025 08:55:36 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian-kepala-gudang.php on line 168
+[25-Jun-2025 09:14:53 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[25-Jun-2025 09:14:53 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[29-Jun-2025 15:25:20 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 193
+[29-Jun-2025 15:25:20 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 194
+[29-Jun-2025 19:47:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[29-Jun-2025 19:47:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[01-Jul-2025 00:17:55 Asia/Jakarta] PHP Warning:  include(../koneksi.php): Failed to open stream: No such file or directory in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[01-Jul-2025 00:17:55 Asia/Jakarta] PHP Warning:  include(): Failed opening '../koneksi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/trix2829/public_html/main/notifikasi_stok.php on line 2
+[01-Jul-2025 00:17:55 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/barang.php on line 446
+[01-Jul-2025 00:17:55 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/barang.php on line 447
+[01-Jul-2025 03:01:32 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-pembelian.php on line 166
+[01-Jul-2025 03:01:32 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-pembelian.php on line 167
+[01-Jul-2025 03:53:25 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 193
+[01-Jul-2025 03:53:25 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/penjadwalan-pembelian.php on line 194
+[01-Jul-2025 03:58:15 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/data-keuangan.php on line 487
+[01-Jul-2025 03:58:15 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/data-keuangan.php on line 488
+[01-Jul-2025 04:10:47 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/pelanggan.php on line 232
+[01-Jul-2025 04:10:47 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/pelanggan.php on line 233
+[01-Jul-2025 11:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "role" in /home/trix2829/public_html/pages/supplier.php on line 83
+[01-Jul-2025 11:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "username" in /home/trix2829/public_html/pages/supplier.php on line 84
