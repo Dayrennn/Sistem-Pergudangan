@@ -1,0 +1,935 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* --- Variables --- */
+:root {
+    --primary-color: #4A90E2; /* Modern Blue */
+    --secondary-color: #6B7A8F; /* Soft Grey-Blue */
+    --accent-color: #FFC107; /* Bright Yellow */
+    --success-color: #28a745;
+    --danger-color: #DC3545;
+    --light-bg: #F0F2F5; /* Very Light Grey */
+    --dark-bg: #2C3E50; /* Dark Blue-Grey */
+    --navy-sidebar: #2C3E50; /* Navy Blue for sidebar */
+    --white: #FFFFFF;
+    --text-dark: #333333;
+    --text-light: #F8F8F8;
+    --border-color: #E0E0E0;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --transition-speed: 0.3s; /* Kecepatan transisi umum */
+    --modal-animation-duration: 0.3s; /* Durasi animasi modal */
+}
+
+/* --- Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Scrollbar styling */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 2px solid var(--light-bg);
+}
+
+/* --- Navbar --- */
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.profile-company {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.profile-company img {
+    height: 45px;
+    margin-left: 10px;
+}
+
+.profile-company h2 {
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 600;
+    display: none; /* Hidden on smaller screens by default, shown on larger ones via media query */
+}
+
+/* --- Container --- */
+.container {
+    display: flex;
+    margin-top: 70px; /* Menyesuaikan dengan tinggi navbar yang fixed */
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    width: 280px;
+    background-color: var(--navy-sidebar);
+    padding: 25px 20px;
+    box-shadow: 4px 0 12px var(--shadow-light);
+    height: calc(100vh - 70px);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    overflow-y: auto;
+    transition: width var(--transition-speed) ease-in-out;
+    z-index: 999; /* Memastikan sidebar di bawah navbar tapi di atas konten utama */
+}
+
+.sidebar.collapsed {
+    width: 80px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: var(--text-light);
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    transform: translateX(5px);
+}
+
+.sidebar ul li a i {
+    margin-right: 15px;
+    font-size: 22px;
+    min-width: 22px;
+    color: var(--primary-color);
+}
+
+.sidebar ul li a:hover i,
+.sidebar ul li a.active i {
+    color: var(--white);
+}
+
+.sidebar.collapsed ul li a span {
+    display: none;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo h4 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.sidebar-profile svg {
+    margin-right: 15px;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.sidebar-profile span {
+    font-size: 15px;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.sidebar-profile a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-profile a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+
+/* --- Main Content --- */
+.beranda {
+    margin-left: 300px;
+    padding: 30px;
+    flex-grow: 1;
+    transition: margin-left var(--transition-speed) ease-in-out;
+}
+
+.beranda.shifted {
+    margin-left: 100px;
+}
+
+.beranda h2 {
+    margin-bottom: 25px;
+    color: var(--dark-bg);
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.beranda h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px var(--shadow-medium);
+}
+
+.card h3 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 17px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.card i {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 0;
+}
+
+.container-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- Data Table --- */
+.data-table-container {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.data-table th,
+.data-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.data-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.data-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.data-table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: var(--light-bg);
+}
+
+.data-table tbody tr:hover {
+    background-color: #E6F0FF;
+    cursor: pointer;
+}
+
+.data-table td:last-child {
+    white-space: nowrap;
+}
+
+
+/* --- Buttons (Tombol Aksi Umum, Tombol di Tabel) --- */ .btn {
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+        color: white; /* Default text color */
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Warna untuk Tombol Tambah Produk (Biru) */
+    .btn-tambah {
+        background-color: #007bff; /* Biru */
+    }
+
+    .btn-tambah:hover {
+        background-color: #0056b3; /* Biru lebih gelap saat hover */
+    }
+
+    /* Warna untuk Tombol Edit (Hijau) */
+    .btn-edit {
+        background-color: #28a745; /* Hijau */
+    }
+
+    .btn-edit:hover {
+        background-color: #1e7e34; /* Hijau lebih gelap saat hover */
+    }
+
+    /* Warna untuk Tombol Hapus (Merah) */
+    .btn-hapus {
+        background-color: #dc3545; /* Merah */
+    }
+
+    .btn-hapus:hover {
+        background-color: #c82333; /* Merah lebih gelap saat hover */
+    }
+
+    /* Styling untuk tombol di dalam modal (jika Anda ingin konsisten) */
+    .modal-buttons .btn-batal {
+        background-color: #6c757d; /* Abu-abu untuk batal */
+        color: white;
+    }
+    .modal-buttons .btn-batal:hover {
+        background-color: #5a6268;
+    }
+
+    .modal-buttons .btn-simpan {
+        background-color: #007bff; /* Bisa juga hijau jika menyimpan dianggap aksi positif */
+        color: white;
+    }
+    .modal-buttons .btn-simpan:hover {
+        background-color: #0056b3;
+    }
+
+
+/* --- Sidebar Logout Button --- */
+.btn-logout-sidebar {
+    background: var(--danger-color);
+    border: none;
+    color: var(--white);
+    padding: 12px 18px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-logout-sidebar i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.btn-logout-sidebar:hover {
+    background-color: #C23040;
+    transform: translateY(-2px);
+}
+
+.sidebar.collapsed .btn-logout-sidebar span {
+    display: none;
+}
+.sidebar.collapsed .btn-logout-sidebar {
+    padding: 12px;
+    width: auto;
+}
+
+
+/* --- Tombol di dalam Tabel (Edit, Hapus) --- */
+.btn-hapus, .btn-edit {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    color: var(--white);
+    margin-right: 8px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.btn-hapus {
+    background-color: var(--danger-color);
+}
+
+.btn-hapus:hover {
+    background-color: #C23040;
+    transform: translateY(-2px);
+}
+
+.btn-edit {
+    background-color: var(--primary-color);
+}
+
+.btn-edit:hover {
+    background-color: #3A82D1;
+    transform: translateY(-2px);
+}
+
+
+/* --- Modal Styling --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    align-items: center;
+    justify-content: center;
+    transition: background-color var(--modal-animation-duration) ease-out;
+}
+.alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        .alert-success {
+            color: #3c763d;
+            background-color: #dff0d8;
+            border-color: #d6e9c6;
+        }
+        .alert-danger {
+            color: #a94442;
+            background-color: #f2dede;
+            border-color: #ebccd1;
+        }
+/* Keyframes for modal animations */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOutSlideDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+.modal[style*="display: block"] {
+    display: flex !important;
+    animation: fadeInSlideUp var(--modal-animation-duration) ease-out forwards;
+}
+
+.modal-content {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px var(--shadow-medium);
+    width: 90%;
+    max-width: 550px;
+    text-align: center;
+    position: relative;
+    z-index: 1002;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity var(--modal-animation-duration) ease-out, transform var(--modal-animation-duration) ease-out;
+}
+
+.modal[style*="display: block"] .modal-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-content h3,
+.modal-content h2 { /* Both h2 and h3 are used for modal titles */
+    margin-bottom: 30px;
+    color: var(--dark-bg);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Close button for modals */
+.modal-content .close,
+.modal-content .close-button,
+.modal-content .close-modal { /* Added .close-modal for consistency */
+    color: var(--secondary-color);
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    transition: color var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.modal-content .close:hover,
+.modal-content .close-button:hover,
+.modal-content .close-modal:hover { /* Added .close-modal for hover state */
+    color: var(--danger-color);
+    transform: rotate(90deg);
+}
+
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+textarea.form-control,
+select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%234A90E2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.btn-batal, .btn-simpan {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.btn-batal {
+    background-color: var(--secondary-color);
+}
+
+.btn-batal:hover {
+    background-color: #5A6A7D;
+    transform: translateY(-2px);
+}
+
+.btn-simpan {
+    background-color: var(--primary-color);
+}
+
+.btn-simpan:hover {
+    background-color: #3A82D1;
+    transform: translateY(-2px);
+}
+
+
+/* --- Flexbox for Sales Chart and Product Data Table --- */
+.box { /* Assuming .box is the direct parent of chart and table containers */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line on smaller screens */
+    gap: 25px; /* Space between the chart and the data table */
+    margin-bottom: 40px; /* Space below this entire section */
+    align-items: flex-start; /* Aligns items to the top if their heights differ */
+}
+
+.data-grafik-container,
+.data-jual-container {
+    flex: 1; /* Allows both items to grow and shrink */
+    min-width: 450px; /* Minimum width for each item before wrapping */
+    padding: 30px; /* Consistent padding */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    border: 1px solid var(--border-color);
+    background-color: var(--white); /* Ensure background is white */
+}
+
+/* Specific styling for elements inside these containers */
+.data-grafik-container h2,
+.data-jual-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: var(--dark-bg);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.data-grafik-container canvas {
+    max-width: 100%;
+    height: auto; /* Ensures chart scales responsively */
+    display: block; /* Removes extra space below canvas if it's inline */
+    margin-top: 15px; /* Space above the chart */
+}
+
+
+/* --- Responsive Design --- */
+@media (max-width: 1200px) {
+    .sidebar {
+        width: 250px;
+    }
+    .beranda {
+        margin-left: 270px;
+    }
+    .profile-company h2 { /* Show company name on medium screens */
+        display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 220px;
+    }
+    .beranda {
+        margin-left: 240px;
+        padding: 25px;
+    }
+    .container-card {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .card h3 {
+        font-size: 38px;
+    }
+    .card p {
+        font-size: 16px;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 12px 15px;
+    }
+
+    /* Responsive adjustments for .box (chart and table side-by-side) */
+    .box {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 25px; /* Adjust gap for vertical stacking */
+    }
+    .data-grafik-container,
+    .data-jual-container {
+        min-width: unset; /* Remove min-width constraint */
+        width: 100%; /* Take full width when stacked */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+        height: 60px;
+    }
+    .profile-company {
+        margin-left: auto;
+    }
+    .profile-company img {
+        height: 40px;
+    }
+    .profile-company h2 {
+        font-size: 18px;
+        display: none; /* Hide on small screens */
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        box-shadow: 0 4px 8px var(--shadow-light);
+        border-bottom: 1px solid var(--border-color);
+        padding: 15px 20px;
+    }
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .sidebar ul li {
+        margin-bottom: 0;
+    }
+    .sidebar ul li a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .sidebar ul li a i {
+        margin-right: 8px;
+        font-size: 20px;
+    }
+    .sidebar-profile, .sidebar .logo, hr {
+        display: none;
+    }
+
+    .btn-logout-sidebar {
+        margin-top: 15px;
+        width: auto;
+        align-self: center;
+        padding: 12px 20px;
+    }
+    .sidebar.collapsed {
+        width: 100%;
+    }
+    .sidebar.collapsed ul li a span {
+        display: inline;
+    }
+    .sidebar.collapsed .btn-logout-sidebar {
+        padding: 12px 20px;
+    }
+
+    .beranda {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .beranda h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .container-card {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .data-table-container {
+        padding: 20px;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .table-controls .btn {
+        width: 100%;
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+
+    .btn-hapus, .btn-edit {
+        padding: 8px 12px;
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+
+    .modal-content {
+        padding: 30px;
+    }
+    .modal-content h3,
+    .modal-content h2 {
+        font-size: 22px;
+    }
+    .form-control {
+        padding: 12px;
+        font-size: 15px;
+    }
+    .modal-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-batal, .btn-simpan {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 55px;
+        padding: 0 15px;
+    }
+    .profile-company img {
+        height: 35px;
+    }
+    .beranda h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .card {
+        padding: 20px;
+    }
+    .card h3 {
+        font-size: 36px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .card i {
+        font-size: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .modal-content {
+        padding: 25px;
+    }
+    .modal-content h3,
+    .modal-content h2 {
+        font-size: 20px;
+    }
+    .form-group label {
+        font-size: 14px;
+    }
+    .form-control {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Responsive adjustments for .box (chart and table side-by-side) */
+    .data-grafik-container,
+    .data-jual-container {
+        padding: 15px; /* Reduce padding on very small screens */
+    }
+    .data-grafik-container h2,
+    .data-jual-container h2 {
+        font-size: 20px; /* Smaller heading on very small screens */
+    }
+}

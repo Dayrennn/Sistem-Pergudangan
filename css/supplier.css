@@ -1,0 +1,938 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* --- Variables --- */
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #6B7A8F;
+    --accent-color: #FFC107;
+    --success-color: #28a745;
+    --danger-color: #DC3545;
+    --light-bg: #F0F2F5;
+    --dark-bg: #2C3E50;
+    --navy-sidebar: #2C3E50;
+    --white: #FFFFFF;
+    --text-dark: #333333;
+    --text-light: #F8F8F8;
+    --border-color: #E0E0E0;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --transition-speed: 0.3s;
+    --modal-animation-duration: 0.3s;
+    --navbar-height: 70px;
+    --sidebar-width: 280px;
+    --sidebar-collapsed-width: 80px;
+}
+
+/* --- Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Scrollbar styles */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 2px solid var(--light-bg);
+}
+
+/* --- Navbar --- */
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+.navbar .profile-company {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Untuk menempatkan di kanan */
+}
+/* Penyesuaian karena logo di navbar sudah ada, tapi bukan 'h2' */
+.navbar .profile-company img {
+    height: 45px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+}
+/* Karena di supplier.php tidak ada h2 di navbar, ini mungkin tidak terpakai */
+.profile-company h2 {
+    color: var(--text-dark);
+    font-size: 20px;
+    font-weight: 600;
+    display: none; /* Mungkin disembunyikan untuk mobile */
+}
+
+/* --- Container --- */
+.container {
+    display: flex;
+    min-height: calc(100vh - var(--navbar-height));
+    margin-top: var(--navbar-height);
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--navy-sidebar);
+    padding: 25px 20px;
+    box-shadow: 4px 0 12px var(--shadow-light);
+    height: calc(100vh - var(--navbar-height));
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    overflow-y: auto;
+    transition: width var(--transition-speed) ease-in-out;
+    z-index: 999;
+}
+
+/* Scrollbar styles for sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    border: 1px solid var(--navy-sidebar);
+}
+
+.sidebar.collapsed {
+    width: var(--sidebar-collapsed-width);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: var(--white);
+    background-color: transparent;
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transform: translateX(5px);
+}
+
+.sidebar ul li a i {
+    margin-right: 15px;
+    font-size: 22px;
+    min-width: 22px;
+    color: var(--white);
+}
+
+.sidebar ul li a:hover i,
+.sidebar ul li a.active i {
+    color: var(--white);
+}
+
+.sidebar.collapsed ul li a span {
+    display: none;
+}
+.sidebar.collapsed ul li a {
+    justify-content: center;
+    padding: 12px 0;
+}
+.sidebar.collapsed ul li a i {
+    margin-right: 0;
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px; /* Jarak bawah untuk logo di sidebar */
+}
+
+.sidebar .logo h4 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar.collapsed .logo h4 {
+    display: none;
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.sidebar.collapsed .sidebar-profile {
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.sidebar-profile svg {
+    margin-right: 15px;
+    color: var(--white);
+    font-size: 30px;
+}
+.sidebar.collapsed .sidebar-profile svg {
+    margin-right: 0;
+}
+
+.sidebar-profile span {
+    font-size: 15px;
+    color: var(--text-light);
+    font-weight: 500;
+}
+.sidebar.collapsed .sidebar-profile span {
+    display: none;
+}
+
+.sidebar-profile a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-profile a:hover {
+    text-decoration: underline;
+}
+
+/* Sesuaikan hr di sidebar jika perlu, karena di PHP ada inline style */
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+.sidebar.collapsed hr {
+    display: none;
+}
+
+.btn-logout-sidebar {
+    background: var(--danger-color);
+    color: var(--white);
+    border: 1px solid var(--danger-color);
+    padding: 12px 18px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-logout-sidebar:hover {
+    background-color: var(--white);
+    color: var(--danger-color);
+    transform: translateY(-2px);
+    border-color: var(--danger-color);
+}
+
+.btn-logout-sidebar i {
+    margin-right: 8px;
+}
+
+.sidebar.collapsed .btn-logout-sidebar span {
+    display: none;
+}
+.sidebar.collapsed .btn-logout-sidebar {
+    padding: 12px;
+    width: auto;
+    justify-content: center;
+}
+.sidebar.collapsed .btn-logout-sidebar i {
+    margin-right: 0;
+}
+
+/* --- Main Content (Beranda) --- */
+.beranda {
+    margin-left: var(--sidebar-width);
+    padding: 30px;
+    flex-grow: 1;
+    transition: margin-left var(--transition-speed) ease-in-out;
+}
+
+.beranda.shifted {
+    margin-left: var(--sidebar-collapsed-width);
+}
+
+.beranda h2 {
+    margin-bottom: 25px;
+    color: var(--dark-bg);
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.beranda h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* Search and Add button container */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* This is the button that opens the modal (Tambah Supplier) */
+button.btn-submit {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button.btn-submit:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+}
+
+/* Input untuk pencarian (jika ada) */
+.search-container input[type="text"] {
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 16px;
+    width: 300px;
+    transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+    outline: none;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 20px;
+    background-color: var(--white);
+    box-shadow: 0 6px 20px var(--shadow-light);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+table thead {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+table th, table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+}
+
+table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+table th:first-child {
+    border-top-left-radius: 12px;
+}
+
+table th:last-child {
+    border-top-right-radius: 12px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: var(--light-bg);
+}
+
+table tbody tr:hover {
+    background-color: #E6F0FF;
+    cursor: pointer;
+}
+
+.action-buttons {
+    white-space: nowrap;
+}
+
+/* Specific button styles for Edit and Delete */
+.btn-danger {
+    background-color: var(--danger-color);
+    color: var(--white);
+    border: 1px solid var(--danger-color);
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    margin-right: 8px; /* Space between buttons */
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger:hover {
+    background-color: var(--white);
+    color: var(--danger-color);
+    transform: translateY(-2px);
+    border-color: var(--danger-color);
+}
+
+.btn-edit {
+    background-color: var(--primary-color); /* Using primary color for edit */
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    margin-right: 8px; /* Space between buttons */
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-edit:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+}
+
+/* --- Modal Styles --- */
+.modal {
+    display: none; /* Modal is hidden by default */
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* This class will be added by JavaScript to show the modal */
+.modal.modal-active {
+    display: flex; /* Only show when this class is present */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    animation: fadeInModal var(--modal-animation-duration) ease-out forwards; /* Apply animation when active, forwards keeps the end state */
+}
+
+/* New class for fade-out animation */
+.modal.modal-closing {
+    animation: fadeOutModal var(--modal-animation-duration) ease-in forwards; /* Apply fade out, forwards keeps the end state */
+    display: flex; /* Keep it flex during animation */
+}
+
+.modal-content {
+    background-color: var(--white);
+    padding: 35px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px var(--shadow-medium);
+    width: 90%;
+    max-width: 650px;
+    position: relative;
+    margin: auto; /* This helps centering within a flex container */
+    /* Add initial state for content animation (optional but good practice) */
+    opacity: 0; /* Start hidden for content animation */
+    transform: translateY(-20px); /* Start slightly above for content animation */
+    transition: opacity var(--modal-animation-duration) ease-out, transform var(--modal-animation-duration) ease-out; /* Smooth transition for content */
+}
+
+/* When modal is active, the content animates in */
+.modal.modal-active .modal-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* When modal is closing, the content animates out */
+.modal.modal-closing .modal-content {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity var(--modal-animation-duration) ease-in, transform var(--modal-animation-duration) ease-in;
+}
+
+.close-btn {
+    color: var(--secondary-color);
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    transition: color var(--transition-speed) ease;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: var(--danger-color);
+}
+
+.close-btn-hapus { /* Added specific close button for hapus modal */
+    color: var(--secondary-color);
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    transition: color var(--transition-speed) ease;
+}
+
+.close-btn-hapus:hover,
+.close-btn-hapus:focus {
+    color: var(--danger-color);
+}
+
+.modal-content h2, .modal-content h3 { /* Added h3 for modal title consistency */
+    margin-top: 0;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* Penyesuaian untuk input dan textarea di modal supplier.php */
+.modal-content form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 15px;
+    margin-top: 15px; /* Tambahkan sedikit jarak atas antar label */
+}
+
+.modal-content form input[type="text"],
+.modal-content form input[type="email"],
+.modal-content form input[type="number"],
+.modal-content form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--text-dark);
+    background-color: var(--light-bg);
+    transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 15px; /* Tambahkan margin bawah */
+}
+
+.modal-content form input[type="text"]:focus,
+.modal-content form input[type="email"]:focus,
+.modal-content form input[type="number"]:focus,
+.modal-content form textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+    outline: none;
+    background-color: var(--white);
+}
+
+textarea.form-control { /* Ini akan diterapkan jika kamu menambahkan class ini ke textarea */
+    resize: vertical;
+    min-height: 80px;
+}
+
+
+/* Form actions for modal (adjusting for the provided HTML structure) */
+.modal-content form button[type="submit"].btn-submit {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    display: flex; /* Use flex to center content */
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make it full width */
+    margin-top: 25px; /* Add some space above */
+}
+
+.modal-content form button[type="submit"].btn-submit:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+}
+
+
+.button-group { /* Untuk modal hapus */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+/* Button styles for general use (e.g., in forms, modals) */
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-cancel {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border: 1px solid var(--secondary-color);
+}
+
+.btn-cancel:hover {
+    background-color: var(--white);
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+    border-color: var(--secondary-color);
+}
+
+/* Specific button styles for confirm delete in modal (supplier.php) */
+#modalHapus .btn-danger {
+    background-color: var(--danger-color);
+    color: var(--white);
+    border: 1px solid var(--danger-color);
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease, color var(--transition-speed) ease, border-color var(--transition-speed) ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#modalHapus .btn-danger:hover {
+    background-color: var(--white);
+    color: var(--danger-color);
+    transform: translateY(-2px);
+    border-color: var(--danger-color);
+}
+
+.form-text {
+    font-size: 0.85em;
+    color: var(--secondary-color);
+    margin-top: 5px;
+    display: block;
+}
+
+/* Keyframe for fadeInModal */
+@keyframes fadeInModal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Keyframe for fadeOutModal */
+@keyframes fadeOutModal {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1200px) {
+    :root {
+        --sidebar-width: 250px;
+    }
+    .beranda {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --sidebar-width: 220px;
+    }
+    .beranda {
+        padding: 20px;
+    }
+    .search-container input[type="text"] {
+        width: 250px;
+    }
+    table th,
+    table td {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+        height: 60px;
+    }
+    .profile-company img {
+        height: 40px;
+    }
+    /* Logo di navbar (jika ada teks) */
+    .navbar .logo h4 {
+        font-size: 18px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        box-shadow: 0 4px 8px var(--shadow-light);
+        border-bottom: 1px solid var(--border-color);
+        padding: 15px 20px;
+        overflow-y: hidden;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .sidebar ul li {
+        margin-bottom: 0;
+        width: 48%; /* Untuk 2 kolom */
+        text-align: center;
+    }
+    .sidebar ul li a {
+        padding: 10px 15px;
+        font-size: 14px;
+        flex-direction: column; /* Icon di atas teks */
+        text-align: center;
+    }
+    .sidebar ul li a i {
+        margin-right: 0;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    /* Sembunyikan elemen ini di mobile jika sidebar full width */
+    .sidebar-profile, .sidebar .logo h4 {
+        display: none;
+    }
+    /* Karena hr di php pakai inline style, perlu override */
+    .sidebar hr {
+        display: none !important;
+    }
+
+    .btn-logout-sidebar {
+        margin-top: 15px;
+        width: 100%;
+        align-self: center;
+    }
+    .btn-logout-sidebar span {
+        display: inline; /* Pastikan teks logout muncul di mobile */
+    }
+    .btn-logout-sidebar i {
+        margin-right: 8px; /* Kembalikan margin ikon */
+    }
+
+
+    .beranda {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .beranda h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .search-container button,
+    .search-container input[type="text"] {
+        width: 100%;
+        max-width: none;
+    }
+    table th,
+    table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .modal-content {
+        padding: 25px;
+    }
+    .modal-content h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    /* Atur gaya untuk form di modal agar responsif */
+    .modal-content form label,
+    .modal-content form input[type="text"],
+    .modal-content form input[type="email"],
+    .modal-content form input[type="number"],
+    .modal-content form textarea {
+        font-size: 14px;
+        padding: 10px 12px;
+        margin-bottom: 10px;
+    }
+    /* Tombol di dalam modal hapus */
+    #modalHapus form button {
+        width: 100%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    /* Tombol simpan di modal tambah/edit */
+    .modal-content form button[type="submit"].btn-submit {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+
+    /* Khusus untuk .button-group di modal hapus */
+    .modal-content .button-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 55px;
+        padding: 0 15px;
+    }
+    .profile-company img {
+        height: 35px;
+    }
+    .beranda h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    table th,
+    table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .modal-content {
+        padding: 20px;
+    }
+    .modal-content h2 {
+        font-size: 22px;
+    }
+    .modal-content form label {
+        font-size: 13px;
+    }
+    .modal-content form input,
+    .modal-content form textarea,
+    .modal-content form select {
+        font-size: 13px;
+        padding: 8px 10px;
+    }
+    .btn-cancel, .btn-submit, .btn-danger, #modalHapus .btn-danger {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .sidebar ul li {
+        width: 100%; /* Satu kolom di layar sangat kecil */
+    }
+    .sidebar ul li a {
+        flex-direction: row; /* Icon di samping teks lagi */
+        justify-content: flex-start;
+        gap: 5px;
+        padding: 8px 12px;
+    }
+    .sidebar ul li a i {
+        margin-right: 8px;
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+}

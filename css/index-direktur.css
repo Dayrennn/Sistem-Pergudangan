@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* --- Variables --- */
+:root {
+    --primary-color: #4A90E2; /* Modern Blue */
+    --secondary-color: #6B7A8F; /* Soft Grey-Blue */
+    --accent-color: #FFC107; /* Bright Yellow */
+    --success-color: #28a745;
+    --danger-color: #DC3545;
+    --light-bg: #F0F2F5; /* Very Light Grey */
+    --dark-bg: #2C3E50; /* Dark Blue-Grey */
+    --navy-sidebar: #2C3E50; /* Navy Blue for sidebar */
+    --white: #FFFFFF;
+    --text-dark: #333333;
+    --text-light: #F8F8F8;
+    --border-color: #E0E0E0;
+    --shadow-light: rgba(0, 0, 0, 0.08);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --transition-speed: 0.3s; /* Kecepatan transisi umum */
+    --modal-animation-duration: 0.3s; /* Durasi animasi modal */
+    --navbar-height: 70px; /* Variabel untuk tinggi navbar */
+    --sidebar-width: 280px; /* Variabel untuk lebar sidebar */
+    --sidebar-collapsed-width: 80px; /* Variabel untuk lebar sidebar yang diciutkan */
+}
+
+/* --- Base Styles --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--light-bg);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: 2px solid var(--light-bg);
+}
+
+/* --- Navbar --- */
+.navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 4px 12px var(--shadow-light);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.profile-company {
+    display: flex;
+    align-items: center;
+}
+
+.profile-company img {
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+}
+
+/* --- Container --- */
+.container {
+    display: flex;
+    min-height: calc(100vh - var(--navbar-height));
+    margin-top: var(--navbar-height);
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--navy-sidebar);
+    padding: 25px 20px;
+    box-shadow: 4px 0 12px var(--shadow-light);
+    height: calc(100vh - var(--navbar-height));
+    position: fixed;
+    top: var(--navbar-height);
+    left: 0;
+    overflow-y: auto;
+    transition: width var(--transition-speed) ease-in-out;
+    z-index: 999;
+}
+
+/* Scrollbar styling for sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 3px;
+    border: 1px solid var(--navy-sidebar);
+}
+
+
+.sidebar.collapsed {
+    width: var(--sidebar-collapsed-width);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 12px;
+}
+
+.sidebar ul li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    text-decoration: none;
+    color: var(--text-light);
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--white);
+    transform: translateX(5px);
+}
+
+.sidebar ul li a i {
+    margin-right: 15px;
+    font-size: 22px;
+    min-width: 22px;
+    color: var(--primary-color);
+}
+
+.sidebar ul li a:hover i,
+.sidebar ul li a.active i {
+    color: var(--white);
+}
+
+.sidebar.collapsed ul li a span {
+    display: none;
+}
+.sidebar.collapsed ul li a {
+    justify-content: center;
+    padding: 12px 0;
+}
+.sidebar.collapsed ul li a i {
+    margin-right: 0;
+}
+
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .logo h4 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidebar.collapsed .logo h4 {
+    display: none;
+}
+
+.sidebar-profile {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.sidebar.collapsed .sidebar-profile {
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.sidebar-profile svg {
+    margin-right: 15px;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+.sidebar.collapsed .sidebar-profile svg {
+    margin-right: 0;
+}
+
+.sidebar-profile span {
+    font-size: 15px;
+    color: var(--text-light);
+    font-weight: 500;
+}
+.sidebar.collapsed .sidebar-profile span {
+    display: none;
+}
+
+.sidebar-profile a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.sidebar-profile a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 30px 0;
+}
+.sidebar.collapsed hr {
+    display: none;
+}
+
+.btn-logout-sidebar {
+    background: var(--danger-color);
+    border: none;
+    color: var(--white);
+    padding: 12px 18px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: background-color var(--transition-speed) ease, transform var(--transition-speed) ease;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btn-logout-sidebar:hover {
+    background-color: #C23040;
+    transform: translateY(-2px);
+}
+
+.sidebar.collapsed .btn-logout-sidebar span {
+    display: none;
+}
+.sidebar.collapsed .btn-logout-sidebar {
+    padding: 12px;
+    width: auto;
+    justify-content: center;
+}
+.sidebar.collapsed .btn-logout-sidebar i {
+    margin-right: 0;
+}
+
+/* --- Main Content --- */
+.beranda {
+    margin-left: var(--sidebar-width);
+    padding: 30px;
+    flex-grow: 1;
+    transition: margin-left var(--transition-speed) ease-in-out;
+}
+
+.beranda.shifted {
+    margin-left: var(--sidebar-collapsed-width);
+}
+
+.beranda h2 {
+    margin-bottom: 25px;
+    color: var(--dark-bg);
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.beranda h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px; /* Space below the cards */
+}
+
+.card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px var(--shadow-medium);
+}
+
+.card h3 {
+    font-size: 42px;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.card p {
+    font-size: 17px;
+    color: var(--secondary-color);
+    font-weight: 500;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.card i {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.05);
+    z-index: 0;
+}
+
+.container-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- Group for side-by-side tables: Data Produk and Data Barang --- */
+.box { /* This is the div acting as the group for side-by-side tables */
+    display: flex;
+    gap: 25px; /* Space between the two table containers */
+    flex-wrap: wrap; /* Allow tables to wrap to the next line on smaller screens */
+    margin-bottom: 40px; /* Space below this group before the next table */
+}
+
+/* Specific styling for the two tables within .box */
+.box .data-grafik-container, /* Data Produk table */
+.box .data-jual-container { /* Data Barang table */
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    flex: 1; /* Each takes equal available space */
+    min-width: 45%; /* Ensures tables don't get too small before wrapping, adjust as needed */
+}
+
+.box .data-grafik-container h2,
+.box .data-jual-container h2 {
+    margin-bottom: 20px;
+    color: var(--dark-bg);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0; /* Override default <br><br> margin from PHP */
+}
+
+.box .data-grafik-container .data-table,
+.box .data-jual-container .data-table {
+    width: calc(100% - 30px); /* Adjust width to account for 30px padding inside container */
+    margin: 15px; /* Centers the table within its container and adds spacing */
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 15px;
+}
+
+/* Adjustments for the "Lihat Selengkapnya" link in the boxed tables */
+.box a {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color var(--transition-speed) ease;
+}
+
+.box a:hover {
+    color: #3A82D1;
+    text-decoration: underline;
+}
+
+/* --- Main Data Table (Daftar Penjadwalan Pembelian) --- */
+.data-table-container { /* This is the general style for the last table */
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--shadow-light);
+    overflow-x: auto;
+    border: 1px solid var(--border-color);
+    margin-bottom: 40px; /* Space below this table for overall page layout */
+}
+
+.data-table-container h2 {
+    margin-bottom: 20px;
+    color: var(--dark-bg);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.data-table th,
+.data-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--border-color);
+    text-align: left;
+}
+
+.data-table th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.data-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.data-table th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: var(--light-bg);
+}
+
+.data-table tbody tr:hover {
+    background-color: #E6F0FF;
+    cursor: pointer;
+}
+
+.data-table td:last-child {
+    white-space: nowrap;
+}
+
+/* Status styling for table */
+.data-table td span[data-status="Terjadwal"],
+.status-menipis { /* Added for Data Produk 'Stok Menipis' */
+    background-color: #FFECB3; /* Light orange */
+    color: #FF8F00; /* Darker orange */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.data-table td span[data-status="Dalam Proses"] {
+    background-color: #BBDEFB; /* Light blue */
+    color: #1976D2; /* Darker blue */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.data-table td span[data-status="Selesai"],
+.status-tersedia { /* Added for Data Produk 'Tersedia' */
+    background-color: #E8F5E9; /* Light green */
+    color: #388E3C; /* Darker green */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.data-table td span[data-status="Dibatalkan"],
+.status-habis { /* Added for Data Produk 'Habis' */
+    background-color: #FFCDD2; /* Light red */
+    color: #D32F2F; /* Darker red */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+/* --- Responsive Design --- */
+@media (max-width: 1200px) {
+    :root {
+        --sidebar-width: 250px;
+    }
+    .beranda {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    :root {
+        --sidebar-width: 220px;
+    }
+    .beranda {
+        padding: 20px;
+    }
+    .container-card {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .card h3 {
+        font-size: 38px;
+    }
+    .card p {
+        font-size: 16px;
+    }
+
+    /* Responsive for side-by-side tables */
+    .box {
+        flex-direction: column; /* Stack tables vertically on smaller screens */
+    }
+    .box .data-grafik-container,
+    .box .data-jual-container {
+        min-width: 100%; /* Make them full width when stacked */
+        margin-bottom: 25px; /* Add margin between stacked tables */
+    }
+    .box .data-jual-container:last-child {
+        margin-bottom: 0; /* No bottom margin for the last stacked table in the group */
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 12px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+        height: 60px;
+    }
+    .profile-company img {
+        height: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        box-shadow: 0 4px 8px var(--shadow-light);
+        border-bottom: 1px solid var(--border-color);
+        padding: 15px 20px;
+        overflow-y: hidden;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .sidebar ul li {
+        margin-bottom: 0;
+        width: 48%; /* Adjust for 2 columns if needed, or 100% for one */
+        text-align: center;
+    }
+    .sidebar ul li a {
+        padding: 10px 15px;
+        font-size: 14px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .sidebar ul li a i {
+        margin-right: 0;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .sidebar-profile, .sidebar .logo, hr {
+        display: none;
+    }
+
+    .btn-logout-sidebar {
+        margin-top: 15px;
+        width: 100%;
+        align-self: center;
+    }
+
+    .beranda {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .beranda h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .container-card {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    /* Adjust tables within .box for smaller screens */
+    .box .data-grafik-container,
+    .box .data-jual-container {
+        padding: 20px;
+    }
+    .box .data-grafik-container h2,
+    .box .data-jual-container h2 {
+        font-size: 20px;
+    }
+    .box .data-grafik-container .data-table,
+    .box .data-jual-container .data-table {
+        margin: 10px 0;
+        width: 100%;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 10px;
+        font-size: 13px;
+    }
+    .modal-content {
+        padding: 30px;
+    }
+    .modal-content h3 {
+        font-size: 22px;
+    }
+    .form-control {
+        padding: 12px;
+        font-size: 15px;
+    }
+    .modal-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-batal, .btn-simpan {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 55px;
+        padding: 0 15px;
+    }
+    .profile-company img {
+        height: 35px;
+    }
+    .beranda h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .card {
+        padding: 20px;
+    }
+    .card h3 {
+        font-size: 36px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .card i {
+        font-size: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+    .data-table th,
+    .data-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .modal-content {
+        padding: 25px;
+    }
+    .modal-content h3 {
+        font-size: 20px;
+    }
+    .form-group label {
+        font-size: 14px;
+    }
+    .form-control {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .modal-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-batal, .btn-simpan {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .sidebar ul li {
+        width: 100%;
+    }
+}
