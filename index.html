@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="windows-1252"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Le Yasmin - Segarkan Hari Mu</title>
+	<style type="text/css">* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        /* Animated Background */
+        .bg-animated {
+            background: linear-gradient(-45deg, #1e40af, #3b82f6, #06b6d4, #0ea5e9);
+            background-size: 400% 400%;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Floating particles */
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1; /* Ensure particles are behind content */
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 50%;
+            animation: float 20s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0; /* Fade out as it floats up */
+            }
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(152, 145, 145, 0.95);
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            z-index: 10;
+        }
+        .login-button-nav {
+            position: relative;
+            z-index: 20;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1e40af;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        .logo img { /* Added style for logo image */
+            height: 50px; /* Adjust as needed */
+            width: auto;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #374151;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            /* Pastikan posisi relatif untuk pseudo-element ::after */
+        }
+
+        .nav-links a:hover {
+            color: #1e40af;
+            transform: translateY(-2px);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: #1e40af;
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            border-radius: 1rem; /* This border-radius is likely not visible due to height: 100vh */
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            color: white;
+            overflow: hidden;
+            padding-top: 80px; /* To account for fixed header, adjust if header height changes */
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            z-index: 2;
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .hero-text p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: slideInLeft 1s ease-out 0.2s both;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            animation: slideInLeft 1s ease-out 0.4s both;
+        }
+
+        .cta-button:hover {
+            background: white;
+            color: #1e40af;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .hero-image {
+            position: relative;
+            animation: slideInRight 1s ease-out;
+        }
+
+        .product-showcase {
+            position: relative;
+            transform-style: preserve-3d;
+            animation: float3d 6s ease-in-out infinite;
+        }
+
+        .bottle-main {
+            width: 300px;
+            height: auto;
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.3));
+            transition: transform 0.3s ease;
+        }
+
+        .bottle-main:hover {
+            transform: scale(1.05) rotateY(10deg);
+        }
+
+        @keyframes float3d {
+
+            0%,
+            100% {
+                transform: translateY(0px) rotateY(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotateY(5deg);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Sections */
+        section {
+            padding: 5rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative; /* Ensure z-index works if needed */
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            color: #1f2937;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #1e40af, #06b6d4);
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-top: 3rem;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: #6b7280;
+            line-height: 1.8;
+        }
+
+        .vision-mission {
+            background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .vm-item {
+            margin-bottom: 2rem;
+        }
+
+        .vm-item h3 {
+            color: #1e40af;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Products Section */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .product-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #1e40af, #06b6d4);
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        /* Management Section */
+        .org-chart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3rem 0;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .position {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 180px;
+            max-width: 200px;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .position:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.4);
+        }
+
+        .position h4 {
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .position p {
+            font-size: 0.85rem;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+
+        /* Special styling for top positions */
+        .president {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            min-width: 200px;
+        }
+
+        .commissioner {
+            background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+        }
+
+        .independent {
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+        }
+
+        .director {
+            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%);
+        }
+
+        .manager {
+            background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+            min-width: 150px;
+            max-width: 170px;
+            font-size: 0.85rem;
+            margin: 5px;
+        }
+
+
+        /* Contact Section */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-top: 3rem;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: white;
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(30, 64, 175, 0.3);
+        }
+
+        .contact-info h3 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .contact-map {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            background: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: #6b7280;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #1f2937, #374151);
+            color: white;
+            text-align: center;
+            padding: 3rem 5%;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #60a5fa;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 2rem;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .about-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .org-chart {
+                flex-direction: column;
+            }
+        }
+
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        /* FIX: Changed from .fade-in.active to .fade-in.visible to match JS */
+        .fade-in.active { /* Pastikan ini cocok dengan yang ditambahkan oleh JavaScript */
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .product-card img {
+            height: 300px;
+            width: 300px;
+        }
+
+        .banner {
+            /* This section might push content down, consider if full screen is desired */
+            padding: 5rem 5rem;
+            /* Added min-height to ensure it takes space even if image fails to load */
+            min-height: 200px;
+            display: flex; /* To center content within banner if needed */
+            align-items: center;
+            justify-content: center;
+            overflow: hidden; /* Prevent image overflow */
+        }
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block; /* Remove extra space below image */
+        }
+
+
+        /* Org Chart specific styles from the embedded HTML */
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            overflow-x: auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 40px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .org-chart-container {
+            /* Changed from .org-chart to avoid conflict */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            width: 100%;
+        }
+
+        /* Level styling */
+        .level {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+            width: 100%;
+            position: relative;
+        }
+
+        .level-1 {
+            justify-content: center;
+        }
+
+        .level-2 {
+            justify-content: center;
+        }
+
+        .level-3 {
+            justify-content: center;
+        }
+
+        .level-4 {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .level-5 {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            max-width: 100%;
+        }
+
+        /* Connection lines */
+        .connection {
+            position: absolute;
+            background: #6b7280;
+            z-index: 1;
+        }
+
+        .vertical-line {
+            width: 2px;
+            height: 30px;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .horizontal-line {
+            height: 2px;
+            top: -15px;
+        }
+
+        /* Responsive design for org chart */
+        @media (max-width: 1400px) {
+            .level-5 {
+                max-width: 90%;
+            }
+
+            .manager {
+                min-width: 140px;
+                max-width: 150px;
+            }
+        }
+
+        @media (max-width: 1200px) {
+            .org-chart-container {
+                /* Changed from .org-chart to avoid conflict */
+                width: 100%;
+            }
+
+            .level-4,
+            .level-5 {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .position {
+                min-width: 140px;
+                max-width: 160px;
+                padding: 15px;
+            }
+
+            .position h4 {
+                font-size: 0.8rem;
+            }
+
+            .position p {
+                font-size: 0.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .level {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+
+            .position {
+                min-width: 200px;
+                max-width: 250px;
+            }
+        }
+
+        /* Animation for entrance */
+        .position {
+            animation: fadeInUp 0.6s ease-out forwards;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        .position:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+
+        .position:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .position:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+
+        .position:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+
+        .position:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+
+        .position:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+
+        .position:nth-child(7) {
+            animation-delay: 0.7s;
+        }
+
+        .position:nth-child(8) {
+            animation-delay: 0.8s;
+        }
+
+        .position:nth-child(9) {
+            animation-delay: 0.9s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Updated styles for login-button-nav for better alignment */
+        .login-button-nav {
+            display: inline-block;
+            background: none;
+            color: #374151;
+            text-decoration: none;
+            border: none;
+            font-weight: 500;
+            line-height: 1.6;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .login-button-nav:hover {
+            background: none;
+            color: #1e40af;
+            transform: translateY(-2px);
+        }
+
+        .login-button-nav::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background: #1e40af;
+            transition: width 0.3s ease;
+        }
+
+        .login-button-nav:hover::after {
+            width: 100%;
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(45deg, #128C7E, #075E54);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+	</style>
+	<script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script><script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script>
+	<script bis_use="true" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js" type="text/javascript"></script>
+</head>
+<body bis_frame_id="696" bis_status="ok">
+<header>
+<nav><a class="logo" href="#"><img alt="Le Yasmin Logo" src="leyasminlogosmall.png" /></a>
+<ul class="nav-links">
+	<li><a href="#beranda">Beranda</a></li>
+	<li><a href="#tentang">Tentang Kami</a></li>
+	<li><a href="#manajemen">Manajemen</a></li>
+	<li><a href="#produk">Merek Kami</a></li>
+	<li><a href="#kontak">Hubungi Kami</a></li>
+	<li><a class="login-button-nav" href="main/login.php" target="_blank">Login Karyawan</a></li>
+</ul>
+</nav>
+</header>
+
+<div class="banner" id="banner"><img alt="Le Yasmin Top Banner" src="leyasmin-top-banner-desktop.jpeg" />
+<hr /></div>
+
+<section class="hero bg-animated" id="beranda">
+<div class="particles"></div>
+
+<div class="hero-content">
+<div class="hero-text">
+<h1>SENSASI KESEGARAN YANG TAK TERLUPAKAN</h1>
+
+<p>air mineral premium yang diperkaya mineral alami pilihan terbaik</p>
+<a class="cta-button" href="#produk">Lihat Produk Kami</a></div>
+
+<div class="hero-image">
+<div class="product-showcase"><svg class="bottle-main" viewbox="0 0 200 300" xmlns="http://www.w3.org/2000/svg"> <defs> <lineargradient id="bottleGrad" x1="0%" x2="100%" y1="0%" y2="100%"> <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1"></stop> <stop offset="100%" style="stop-color:#b3e5fc;stop-opacity:1"></stop> </lineargradient> <lineargradient id="waterGrad" x1="0%" x2="100%" y1="0%" y2="100%"> <stop offset="0%" style="stop-color:#81d4fa;stop-opacity:0.8"></stop> <stop offset="100%" style="stop-color:#4fc3f7;stop-opacity:0.8"></stop> </lineargradient> </defs> <path d="M60 80 L60 250 Q60 270 80 270 L120 270 Q140 270 140 250 L140 80" fill="url(#bottleGrad)" stroke="#b3e5fc" stroke-width="2"></path> <path d="M65 85 L65 245 Q65 265 80 265 L120 265 Q135 265 135 245 L135 85" fill="url(#waterGrad)"></path> <rect fill="#e0f2fe" height="25" stroke="#b3e5fc" stroke-width="2" width="30" x="85" y="60"></rect> <ellipse cx="100" cy="55" fill="#1e40af" rx="18" ry="8"></ellipse> <ellipse cx="100" cy="50" fill="#3b82f6" rx="18" ry="8"></ellipse> <rect fill="white" height="40" opacity="0.9" rx="5" width="60" x="70" y="120"></rect> <text fill="#1e40af" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" x="100" y="135">Le</text> <text fill="#1e40af" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" x="100" y="150">Yasmin</text> <circle cx="90" cy="200" fill="white" opacity="0.6" r="3"> <animate attributename="cy" dur="3s" repeatcount="indefinite" values="200;100;200"></animate> </circle> <circle cx="110" cy="180" fill="white" opacity="0.4" r="2"> <animate attributename="cy" dur="4s" repeatcount="indefinite" values="180;120;180"></animate> </circle> <circle cx="100" cy="220" fill="white" opacity="0.5" r="2.5"> <animate attributename="cy" dur="3.5s" repeatcount="indefinite" values="220;110;220"></animate> </circle> </svg></div>
+</div>
+</div>
+</section>
+
+<section class="fade-in" id="tentang">
+<h2 class="section-title">Tentang Kami</h2>
+
+<div class="about-content">
+<div class="about-text">
+<p>PT Trimitra Abadi Lestari telah menjadi pionir dalam industri minuman berkualitas tinggi di Indonesia. Dengan komitmen terhadap kesehatan dan kesegaran, kami menghadirkan produk-produk inovatif yang memenuhi kebutuhan hidrasi modern.</p>
+
+<p>Berdiri dengan visi untuk menyediakan minuman sehat dan menyegarkan, kami terus berinovasi menggunakan teknologi terdepan dan bahan-bahan berkualitas premium untuk menghasilkan produk yang tidak hanya nikmat, tetapi juga menyehatkan.</p>
+</div>
+
+<div class="vision-mission">
+<div class="vm-item">
+<h3>💭 Visi</h3>
+
+<p>Menjadi market leader perusahaan air minum dalam kemasan mineral di tingkat nasional dengan standar kualitas internasional.</p>
+</div>
+
+<div class="vm-item">
+<h3>💬 Misi</h3>
+
+<p>Senantiasa meningkatkan kualitas dan keamanan produk dengan improvement secara komprehensif dan berkesinambungan untuk kepuasan konsumen.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="fade-in" id="manajemen">
+<h2 class="section-title">Manajemen Kami</h2>
+
+<div class="container">
+<h1 class="title">Struktur Organisasi</h1>
+
+<div class="org-chart-container">
+<div class="level level-1">
+<div class="position president">
+<h4>President Commissioner</h4>
+
+<p>Naufal Diosep</p>
+</div>
+</div>
+
+<div class="level level-2">
+<div class="position commissioner">
+<h4>Commissioner</h4>
+
+<p>Adi Wirawan</p>
+</div>
+
+<div class="position independent">
+<h4>Independent Commissioner</h4>
+
+<p>Haris Munandar</p>
+</div>
+</div>
+
+<div class="level level-3">
+<div class="position director">
+<h4>Internal Audit</h4>
+
+<p>Bayu Charisma</p>
+</div>
+
+<div class="position director">
+<h4>President Director</h4>
+
+<p>Gunadi Chandra</p>
+</div>
+
+<div class="position director">
+<h4>Corporate Secretary</h4>
+
+<p>M. Iksan</p>
+</div>
+</div>
+
+<div class="level level-4">
+<div class="position manager">
+<h4>Human Resources Director</h4>
+
+<p>Novdi Muharta</p>
+</div>
+
+<div class="position manager">
+<h4>Sales and Operation Director</h4>
+
+<p>TBA</p>
+</div>
+
+<div class="position manager">
+<h4>Finance Director</h4>
+
+<p>M. Iksan</p>
+</div>
+</div>
+
+<div class="level level-5">
+<div class="position manager">
+<h4>Legal Manager</h4>
+
+<p>Aum Muharam</p>
+</div>
+
+<div class="position manager">
+<h4>HR &amp; GS Manager</h4>
+
+<p>Roni Setiawan</p>
+</div>
+
+<div class="position manager">
+<h4>IT Manager</h4>
+
+<p>Ghaniy Ageng</p>
+</div>
+
+<div class="position manager">
+<h4>Production Manager</h4>
+
+<p>Dwi Suhadi</p>
+</div>
+
+<div class="position manager">
+<h4>PPIC Manager</h4>
+
+<p>Teguh Firmansyah</p>
+</div>
+
+<div class="position manager">
+<h4>Sales &amp; Marketing Manager</h4>
+
+<p>Asep Kadarusman</p>
+</div>
+
+<div class="position manager">
+<h4>Finance Manager</h4>
+
+<p>Anva Novalia</p>
+</div>
+
+<div class="position manager">
+<h4>Accounting &amp; Tax Manager</h4>
+
+<p>Bayu Charisma</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="fade-in" id="produk">
+<h2 class="section-title">Produk Unggulan</h2>
+
+<div class="products-grid">
+<div class="product-card"><img alt="Le Yasmin Cup Series" src="assets/4 (1).png" />
+<h3>Le Yasmin 220 Ml</h3>
+
+<p>Kemasan praktis untuk konsumsi sehari-hari dengan kualitas air mineral terbaik.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Bottle" src="assets/8.png" />
+<h3>Le Yasmin Bottle</h3>
+
+<p>Botol klasik dengan desain ergonomis untuk kemudahan konsumsi di mana saja.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Bottle" src="assets/7 (1).png" />
+<h3>Le Yasmin Mini Bottle</h3>
+
+<p>Botol klasik dengan desain ergonomis untuk kemudahan konsumsi di mana saja.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Varian Rasa" src="assets/6 (1).png" />
+<h3>Le Yasmin Gula Asem</h3>
+
+<p>Varian rasa segar dengan tambahan nutrisi untuk pengalaman minum yang lebih nikmat.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Premium" src="assets/5 (1).png" />
+<h3>Le Yasmin Nata De Coco</h3>
+
+<p>Varian rasa segar mengandung rasa leci yang fresh.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Premium" src="assets/3 (1).png" />
+<h3>Le Yasmin Nata De Coco</h3>
+
+<p>Varian rasa segar mengandung rasa kelapa untuk mengembalikkan ion tubuh yang hilang.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Premium" src="assets/2 (1).png" />
+<h3>Le Yasmin Es Teler</h3>
+
+<p>Varian rasa es teler yang manis dengan tambbahan rasa segar.</p>
+</div>
+
+<div class="product-card"><img alt="Le Yasmin Premium" src="assets/1 (1).png" />
+<h3>Le Yasmin Jelly Drink</h3>
+
+<p>Varian rasa blackurrant yang manis dengan tambbahan rasa anggur.</p>
+</div>
+</div>
+</section>
+
+<section class="fade-in" id="promo">
+<h2 class="section-title">Promo Unggulan</h2>
+
+<div class="products-grid" id="promo-container">
+<p>Memuat promo produk...</p>
+</div>
+</section>
+
+<section class="fade-in" id="kontak">
+<h2 class="section-title">Hubungi Kami</h2>
+
+<div class="contact-content">
+<div class="contact-info">
+<h3>LE YASMIN</h3>
+
+<div class="contact-item"><span>📍</span>
+
+<div><strong>PT. Trimitra Abadi Lestari</strong><br />
+Jl. Raya Benua Indah No.18, RT.001/RW.001, Pabuaran Tumpeng, Kec. Karawaci, Kota Tangerang, Banten</div>
+</div>
+
+<div class="contact-item"><span>📧</span>
+
+<div>customercare@leyasmin.com</div>
+</div>
+
+<div class="contact-item"><span>🌐</span>
+
+<div>www.leyasmin.com</div>
+</div>
+</div>
+
+<div class="contact-map"><iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" sandbox="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.72051539754!2d106.61105261015109!3d-6.168167593793361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ff1b373790c7%3A0x8bad51286f09d1fe!2sPt%20TRIMITRA%20ABADI%20LESTARI!5e0!3m2!1sid!2sid!4v1748619047906!5m2!1sid!2sid" style="border:0;" width="600"></iframe></div>
+</div>
+</section>
+
+<footer>
+<div class="footer-content">
+<div class="footer-logo">Le Yasmin</div>
+
+<p>&copy; 2024 PT. Trimitra Abadi Lestari</p>
+</div>
+</footer>
+<script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.startsWith('#')) {
+                    e.preventDefault();
+                    document.querySelector(targetId).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+                // jika href adalah link eksternal (tidak mulai dengan #), biarkan default action
+            });
+        });
+
+
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        if (mobileMenu && navMenu) { // Check if elements exist before adding event listener
+            mobileMenu.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+
+
+        // Particle animation background
+        function createParticles() {
+            const container = document.getElementById('particles-container');
+            if (!container) return; // Exit if container doesn't exist
+
+            const numParticles = 30; // Number of particles
+            const particleSizeRange = [5, 15]; // Min and max size of particles
+
+            for (let i = 0; i < numParticles; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+
+                const size = Math.random() * (particleSizeRange[1] - particleSizeRange[0]) + particleSizeRange[0];
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+
+                particle.style.left = `${Math.random() * 100}vw`;
+                particle.style.top = `${Math.random() * 100}vh`;
+
+                // Randomize animation duration and delay
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`; // 10-20s
+                particle.style.animationDelay = `${Math.random() * 5}s`; // 0-5s
+
+                // Custom properties for animation
+                particle.style.setProperty('--dx', Math.random() * 2 - 1); // -1 to 1
+                particle.style.setProperty('--dy', Math.random() * 2 - 1); // -1 to 1
+
+                container.appendChild(particle);
+            }
+        }
+
+        // Scroll fade-in effect
+        const fadeElements = document.querySelectorAll('.fade-in');
+
+        const animateOnScroll = () => {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const viewportHeight = window.innerHeight;
+
+                if (elementTop < viewportHeight - 100) { // When element is 100px from viewport bottom
+                    element.classList.add('active');
+                } else {
+                    element.classList.remove('active'); // Remove if scrolled back up
+                }
+            });
+        };
+
+        // Load promo products dynamically
+         // Fungsi untuk memuat produk promo
+     function loadPromoProducts() {
+            fetch('main/get_promo_products.php')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json(); // Expect JSON response
+                })
+                .then(data => {
+                    console.log('Data yang diterima dari server:', data); // Debugging: Log the full data
+                    const promoContainer = document.getElementById('promo-container');
+                    promoContainer.innerHTML = ''; // Clear previous content
+
+                    if (data.success && data.data) { // Cek data.data tidak null/undefined
+                        const products = data.data; // Ini adalah variabel 'products'
+
+                        console.log('Tipe data.data sebelum forEach:', typeof products, 'Is array:', Array.isArray(products)); // Debugging: Cek tipe lagi
+
+                        // PERBAIKAN: Tambahkan cek Array.isArray() sebelum forEach
+                        if (Array.isArray(products) && products.length > 0) {
+                            products.forEach(product => {
+                                const hargaDisplay = product.diskon > 0 ?
+                                    `<span class="harga-coret">Rp ${product.harga.toLocaleString('id-ID')}</span> Rp ${
+                                        (product.harga - (product.harga * product.diskon / 100)).toLocaleString('id-ID')
+                                    }` :
+                                    `Rp ${product.harga.toLocaleString('id-ID')}`;
+
+                                const diskonHtml = product.diskon > 0 ?
+                                    `<p class="diskon">${product.diskon}% OFF</p>` : '';
+
+                               const productCard = document.createElement('div');
+                            productCard.className = 'product-card';
+                            productCard.innerHTML = `
+                                <img src="uploads/${product.gambar}" alt="${product.nama_produk}" class="product-image">
+                                <div class="product-info">
+                                    <h3>${product.nama_produk}</h3>
+                                    <p class="harga">${hargaDisplay}</p>
+                                    ${diskonHtml}
+                                    <a class="btn pesan-btn" href="https://wa.me/6281218547384?text=Halo,%20saya%20tertarik%20dengan%20produk%20*${encodeURIComponent(product.nama_produk)}*%20seharga%20Rp%20${encodeURIComponent(product.harga.toLocaleString('id-ID'))}%20di%20Le%20Yasmin." target="_blank">
+                                        Pesan Sekarang
+                                    </a>
+                                </div>
+                            `;
+                            promoContainer.appendChild(productCard);
+                                promoContainer.appendChild(productCard);
+                            });
+                        } else if (Array.isArray(products) && products.length === 0) {
+                            promoContainer.innerHTML = '<p>Tidak ada produk promo saat ini.</p>';
+                        } else {
+                            // Ini akan menangkap kasus di mana data.data bukan array meskipun success
+                            console.error('Data produk promo tidak dalam format array yang diharapkan:', products);
+                            promoContainer.innerHTML = '<p>Maaf, format data produk promo tidak valid.</p>';
+                        }
+                    } else {
+                        // Jika data.success false atau data.data tidak ada
+                        console.error('Gagal memuat produk promo:', data.error || 'Data kosong atau tidak sukses.');
+                        promoContainer.innerHTML = '<p>Maaf, terjadi kesalahan saat memuat produk promo.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Ada masalah dengan operasi fetch:', error);
+                    document.getElementById('promo-container').innerHTML = '<p>Gagal terhubung ke server untuk memuat promo.</p>';
+                });
+        }
+
+        // Event listeners for DOM content loaded and scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            createParticles();
+            animateOnScroll(); // Initial check for elements in view
+            loadPromoProducts(); // Muat promo saat halaman pertama kali dimuat
+            setInterval(loadPromoProducts, 10000); // Polling setiap 10 detik
+
+            // Adjust header background on scroll
+            window.addEventListener('scroll', () => {
+                const header = document.querySelector('header');
+                if (window.scrollY > 100) {
+                    header.style.background = 'rgba(255, 255, 255, 0.98)';
+                    header.style.boxShadow = '0 2px 30px rgba(0, 0, 0, 0.15)';
+                } else {
+                    header.style.background = 'rgba(255, 255, 255, 0.95)';
+                    header.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+                }
+                animateOnScroll();
+            });
+
+            // Add interactive hover effects for testimonial items
+            document.querySelectorAll('.testimonial-item').forEach(item => {
+                item.addEventListener('mouseenter', function () {
+                    this.style.transform = 'translateY(-5px)';
+                    this.style.boxShadow = '0 12px 25px rgba(0, 0, 0, 0.15)';
+                });
+
+                item.addEventListener('mouseleave', function () {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.1)';
+                });
+            });
+
+            // Add click effect for testimonial items (mobile friendly)
+            document.querySelectorAll('.testimonial-item').forEach(item => {
+                item.addEventListener('click', function () {
+                    this.style.transform = 'scale(0.98)';
+                    setTimeout(() => {
+                        this.style.transform = 'scale(1)';
+                    }, 150);
+                });
+            });
+        });
+    </script><script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Fungsi untuk membuat partikel
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            document.querySelector('.particles').appendChild(particle);
+
+            const size = Math.random() * 4 + 2; // Size between 2px and 6px
+            const x = Math.random() * window.innerWidth;
+            const y = Math.random() * window.innerHeight;
+            const duration = Math.random() * 10 + 10; // Duration between 10s and 20s
+
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${x}px`;
+            particle.style.top = `${y}px`;
+            particle.style.animationDuration = `${duration}s`;
+            particle.style.animationDelay = `-${Math.random() * duration}s`; // Stagger animation start
+
+            // Remove particle after animation ends
+            particle.addEventListener('animationend', () => {
+                particle.remove();
+            });
+        }
+
+        // Buat partikel secara berkala
+        setInterval(createParticle, 300); // Create a new particle every 300ms
+
+        // Fungsi untuk memuat produk promo
+        function loadPromoProducts() {
+            const promoContainer = document.getElementById('promo-container');
+
+            
+            if (!promoContainer) {
+                console.error("Elemen #promo-container tidak ditemukan.");
+                return;
+            }
+
+            fetch('main/get_promo_products.php')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                     const promoContainer = document.getElementById('promo-container'); // Pastikan ini juga ada di sini
+
+                    console.log('Data yang diterima:', data); // Tambahkan baris ini
+                    console.log('Tipe data.data:', typeof data.data, 'Is array:', Array.isArray(data.data)); // Tambahkan baris ini
+
+                    if (data.success && data.data.length > 0) {
+                        promoContainer.innerHTML = ''; // Clear existing content
+                        data.data.forEach(product => {
+                            const productCard = document.createElement('div');
+                            productCard.classList.add('product-card');
+
+                            let hargaDisplay = product.harga.toLocaleString('id-ID');
+                            let diskonHtml = '';
+
+                            if (product.is_promo == 1 && product.diskon > 0) {
+                                const hargaAsli = parseFloat(product.harga);
+                                const diskon = parseFloat(product.diskon) / 100;
+                                const hargaSetelahDiskon = hargaAsli * (1 - diskon);
+                                hargaDisplay = `
+                                    <span class="harga-diskon">Rp${hargaSetelahDiskon.toLocaleString('id-ID')}</span>
+                                    <span class="harga-asli">Rp${hargaAsli.toLocaleString('id-ID')}</span>
+                                `;
+                                diskonHtml = `<span class="diskon-badge">${product.diskon}% OFF</span>`;
+                            } else {
+                                hargaDisplay = `Rp${product.harga.toLocaleString('id-ID')}`;
+                            }
+
+                            productCard.innerHTML = `
+                                <img src="uploads/${product.gambar}" alt="${product.nama_produk}">
+                                <div class="product-info">
+                                    <h3>${product.nama_produk}</h3>
+                                    <p class="harga">${hargaDisplay}</p>
+                                    ${diskonHtml}
+                                    <a class="btn pesan-btn" href="https://wa.me/6281218547384?text=Halo,%20saya%20tertarik%20dengan%20produk%20*${encodeURIComponent(product.nama_produk)}*%20seharga%20Rp%20${encodeURIComponent(product.harga.toLocaleString('id-ID'))}%20di%20Le%20Yasmin." target="_blank">
+                                        Pesan Sekarang
+                                    </a>
+                                </div>
+                            `;
+                            promoContainer.appendChild(productCard);
+                        });
+                    } else if (data.success && data.data.length === 0) {
+                        promoContainer.innerHTML = '<p>Tidak ada produk promo saat ini.</p>';
+                    } else {
+                        console.error('Gagal memuat produk promo:', data.error);
+                        promoContainer.innerHTML = '<p>Maaf, terjadi kesalahan saat memuat produk promo.</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Ada masalah dengan operasi fetch:', error);
+                    document.getElementById('promo-container').innerHTML = '<p>Gagal terhubung ke server untuk memuat promo.</p>';
+                });
+        }
+
+        // Panggil fungsi saat halaman dimuat
+        loadPromoProducts();
+
+        // Opsional: Jika Anda ingin memuat ulang promo secara berkala atau setelah admin klik sesuatu,
+        // Anda bisa memanggil loadPromoProducts() lagi.
+        // Contoh: setInterval(loadPromoProducts, 30000); // Setiap 30 detik
+    });
+</script></body>
+</html>

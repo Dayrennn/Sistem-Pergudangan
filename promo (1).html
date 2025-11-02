@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Le Yasmin - Promo & Katalog Produk</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 50%, #9b59b6 100%);
+            min-height: 100vh;
+            color: white;
+        }
+
+        /* Header */
+        .header {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00bcd4;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-item.active {
+            background: #00bcd4;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        /* Event Card Styles */
+        .event-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .event-image {
+            width: 100%;
+            height: 250px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .event-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .event-image.placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .event-content {
+            padding: 1.5rem;
+        }
+
+        .event-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .event-date {
+            display: inline-block;
+            background: #00bcd4;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .event-details {
+            margin-bottom: 1rem;
+        }
+
+        .event-details p {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .detail-btn {
+            width: 100%;
+            background: #00bcd4;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .detail-btn:hover {
+            background: #00acc1;
+            transform: translateY(-2px);
+        }
+
+        /* Special Event Cards */
+        .event-card.seminar {
+            background: linear-gradient(135deg, rgba(255, 193, 7, 0.2), rgba(255, 152, 0, 0.2));
+        }
+
+        .event-card.workshop {
+            background: linear-gradient(135deg, rgba(76, 175, 80, 0.2), rgba(139, 195, 74, 0.2));
+        }
+
+        .event-card.conference {
+            background: linear-gradient(135deg, rgba(156, 39, 176, 0.2), rgba(233, 30, 99, 0.2));
+        }
+
+        .event-card.webinar {
+            background: linear-gradient(135deg, rgba(33, 150, 243, 0.2), rgba(3, 169, 244, 0.2));
+        }
+
+        /* Speakers Section in Card */
+        .speakers-mini {
+            display: flex;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .speaker-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        /* Statistics or Info Badges */
+        .info-badges {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Add Event Button */
+        .add-event-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #ff4081;
+            border: none;
+            border-radius: 50%;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(255, 64, 129, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .add-event-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(255, 64, 129, 0.6);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-menu {
+                display: none;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .header {
+                padding: 1rem;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255, 255, 255, .3);
+            border-radius: 50%;
+            border-top-color: #fff;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Modal for image upload */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        .file-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <!-- <div class="header">
+        <div class="logo">LE YASMIN</div>
+        <nav class="nav-menu">
+            <a href="#" class="nav-item active">
+                🏠 HOME
+            </a>
+            <a href="#" class="nav-item">
+                💧 PRODUK
+            </a>
+            <a href="#" class="nav-item">
+                🛒 PESAN
+            </a>
+            <a href="#" class="nav-item">
+                📞 KONTAK
+            </a>
+        </nav>
+        <div style="color: #00bcd4; font-weight: bold;">HUBUNGI KAMI</div>
+    </div> -->
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Events Grid -->
+        <div class="events-grid" id="eventsGrid">
+
+            <!-- Promo Card 1: Air Le Yasmin Original -->
+            <div class="event-card seminar">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="1.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">PROMO SPESIAL</div>
+                    <h3 class="event-title">Air Le Yasmin Original - Kesegaran Alami dari Mata Air Pegunungan</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">330ML</span>
+                        <span class="badge">HALAL</span>
+                        <span class="badge">SEHAT</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Harga:</strong> Rp 3.000 per botol</p>
+                        <p><strong>Kemasan:</strong> 24 botol per dus</p>
+                        <p><strong>Kualitas:</strong> Air mineral berkualitas tinggi</p>
+                    </div>
+
+                    <!-- <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Promo Card 2: Air Le Yasmin 600ml -->
+            <div class="event-card conference">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="a.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">UKURAN BESAR</div>
+                    <h3 class="event-title">Air Le Yasmin 600ml - Pilihan Tepat Untuk Aktivitas Harian</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">600ML</span>
+                        <span class="badge">HEMAT</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Harga:</strong> Rp 4.500 per botol</p>
+                        <p><strong>Kemasan:</strong> 12 botol per dus</p>
+                        <p><strong>Keunggulan:</strong> Lebih tahan lama untuk kebutuhan harian</p>
+                    </div>
+                    <!-- 
+                    <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Promo Card 3: Paket Family -->
+            <div class="event-card webinar">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="2.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">PAKET KELUARGA</div>
+                    <h3 class="event-title">Paket Family Le Yasmin - Solusi Air Minum Untuk Seluruh Keluarga</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">MIX PACKAGE</span>
+                        <span class="badge">DISKON 15%</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Isi:</strong> 2 dus 330ml + 1 dus 600ml</p>
+                        <p><strong>Harga Normal:</strong> Rp 198.000</p>
+                        <p><strong>Harga Promo:</strong> Rp 168.000</p>
+                    </div>
+
+                    <!-- <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Promo Card 4: Paket Kantor -->
+            <div class="event-card seminar">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="3.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">PAKET BISNIS</div>
+                    <h3 class="event-title">Le Yasmin Nata De Coco Rasa Leci</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">BULK ORDER</span>
+                        <span class="badge">FREE DELIVERY</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Minimum:</strong> 10 dus per order</p>
+                        <p><strong>Diskon:</strong> Hingga 20% untuk pembelian 50 dus</p>
+                        <p><strong>Bonus:</strong> Gratis ongkir area Jakarta-Tangerang</p>
+                    </div>
+
+                    <!-- <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Promo Card 5: Galon Le Yasmin -->
+            <div class="event-card workshop">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="4.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">Le Yasmin</div>
+                    <h3 class="event-title">Le Yasmin Nata De Coco</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">19 LITER</span>
+                        <span class="badge">EKONOMIS</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Harga:</strong> Rp 25.000 per galon</p>
+                        <p><strong>Layanan:</strong> Antar langsung ke rumah</p>
+                        <p><strong>Area:</strong> Jakarta, Bogor, Depok, Tangerang, Bekasi</p>
+                    </div>
+
+                    <!-- <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Promo Card 6: Promo Ramadan -->
+            <div class="event-card workshop">
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    <img src="6.png" alt="">
+                </div>
+                <div class="event-content">
+                    <div class="event-date">PROMO TERBATAS</div>
+                    <h3 class="event-title">Le Yasmin Gula Aren</h3>
+
+                    <div class="info-badges">
+                        <span class="badge">BELI 5 GRATIS 1</span>
+                        <span class="badge">TERBATAS</span>
+                    </div>
+
+                    <div class="event-details">
+                        <p><strong>Periode:</strong> Selama bulan Ramadan</p>
+                        <p><strong>Syarat:</strong> Pembelian minimal 5 dus ukuran sama</p>
+                        <p><strong>Bonus:</strong> Tumbler Le Yasmin untuk 10 pembeli pertama</p>
+                    </div>
+
+                    <!-- <button class="detail-btn">
+                        🛒 PESAN SEKARANG
+                    </button> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Add Event Button -->
+    <button class="add-event-btn" onclick="addNewEvent()">+</button>
+
+    <!-- Modal for Image Upload -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h3>Upload Gambar Event</h3>
+            <input type="file" class="file-input" accept="image/*" onchange="previewImage(this)">
+            <div id="imagePreview" style="margin-top: 1rem; text-align: center;"></div>
+            <button class="detail-btn" style="margin-top: 1rem;" onclick="saveImage()">Simpan Gambar</button>
+        </div>
+    </div>
+
+    <script>
+        let currentImageElement = null;
+
+        function uploadImage(element) {
+            currentImageElement = element;
+            document.getElementById('imageModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+            currentImageElement = null;
+        }
+
+        function previewImage(input) {
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById('imagePreview').innerHTML =
+                        `<img src="${e.target.result}" style="max-width: 100%; max-height: 200px; border-radius: 8px;">`;
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        function saveImage() {
+            const input = document.querySelector('.file-input');
+            if (input.files && input.files[0] && currentImageElement) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    currentImageElement.innerHTML = `<img src="${e.target.result}">`;
+                    currentImageElement.classList.remove('placeholder');
+                };
+                reader.readAsDataURL(input.files[0]);
+                closeModal();
+            }
+        }
+
+        function addNewEvent() {
+            const eventsGrid = document.getElementById('eventsGrid');
+            const newEventCard = document.createElement('div');
+            newEventCard.className = 'event-card';
+
+            newEventCard.innerHTML = `
+                <div class="event-image placeholder" onclick="uploadImage(this)">
+                    📝
+                </div>
+                <div class="event-content">
+                    <div class="event-date">Tanggal Baru</div>
+                    <h3 class="event-title" contenteditable="true">Klik untuk edit judul event...</h3>
+                    
+                    <div class="speakers-mini">
+                        <div class="speaker-avatar">?</div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p contenteditable="true"><strong>Mulai:</strong> Klik untuk edit</p>
+                        <p contenteditable="true"><strong>Selesai:</strong> Klik untuk edit</p>
+                    </div>
+                    
+                    <button class="detail-btn">
+                        👁️ DETAIL
+                    </button>
+                </div>
+            `;
+
+            eventsGrid.appendChild(newEventCard);
+
+            // Add animation
+            newEventCard.style.opacity = '0';
+            newEventCard.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                newEventCard.style.transition = 'all 0.5s ease';
+                newEventCard.style.opacity = '1';
+                newEventCard.style.transform = 'translateY(0)';
+            }, 100);
+        }
+
+        // Add click handlers for detail buttons
+        document.addEventListener('click', function (e) {
+            if (e.target.classList.contains('detail-btn')) {
+                const button = e.target;
+                const originalText = button.innerHTML;
+                button.innerHTML = '<div class="loading"></div> Loading...';
+
+                setTimeout(() => {
+                    button.innerHTML = originalText;
+                    alert('Detail event akan ditampilkan di sini!');
+                }, 1000);
+            }
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', function (e) {
+            const modal = document.getElementById('imageModal');
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Add some interactive effects
+        document.querySelectorAll('.event-card').forEach(card => {
+            card.addEventListener('mouseenter', function () {
+                this.style.transform = 'translateY(-8px) scale(1.02)';
+            });
+
+            card.addEventListener('mouseleave', function () {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+
+</html>
