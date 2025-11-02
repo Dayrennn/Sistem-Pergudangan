@@ -1,0 +1,5 @@
+Array
+(
+    [username] => admin1
+    [role] => admin
+)

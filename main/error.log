@@ -1,0 +1,400 @@
+[2025-05-18 09:09:57] Mulai hapus-barang.php
+[2025-05-18 09:09:57] Transaksi dimulai
+[2025-05-18 09:09:57] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:09:57] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:09:57] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:09:57] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:09:57] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:09:57] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:09:57] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:09:57] Selesai hapus-barang.php
+[2025-05-18 09:10:17] Mulai hapus-barang.php
+[2025-05-18 09:10:17] Transaksi dimulai
+[2025-05-18 09:10:17] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:10:17] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:10:17] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:17] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:17] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:10:17] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:10:17] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:10:17] Selesai hapus-barang.php
+[2025-05-18 09:10:24] Mulai hapus-barang.php
+[2025-05-18 09:10:24] Transaksi dimulai
+[2025-05-18 09:10:24] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:10:24] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:10:24] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:24] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:24] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:10:24] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:10:24] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:10:24] Selesai hapus-barang.php
+[2025-05-18 09:10:32] Mulai hapus-barang.php
+[2025-05-18 09:10:32] Transaksi dimulai
+[2025-05-18 09:10:32] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:10:32] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:10:32] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:32] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:10:32] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:10:32] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:10:32] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:10:32] Selesai hapus-barang.php
+[2025-05-18 09:18:18] Mulai hapus-barang.php
+[2025-05-18 09:18:18] Transaksi dimulai
+[2025-05-18 09:18:18] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:18:18] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:18:18] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:18] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:18] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:18:18] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:18:18] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:18:18] Selesai hapus-barang.php
+[2025-05-18 09:18:19] Mulai hapus-barang.php
+[2025-05-18 09:18:19] Transaksi dimulai
+[2025-05-18 09:18:19] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:18:19] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:18:19] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:19] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:19] Menghapus dari tabel barang, affected rows: 0
+[2025-05-18 09:18:19] Transaksi di-rollback, barang tidak ditemukan
+[2025-05-18 09:18:19] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:18:19] Selesai hapus-barang.php
+[2025-05-18 09:18:43] Mulai hapus-barang.php
+[2025-05-18 09:18:43] Transaksi dimulai
+[2025-05-18 09:18:43] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:18:43] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:18:43] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:43] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:18:43] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:18:43] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:18:43] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:18:43] Selesai hapus-barang.php
+[2025-05-18 09:21:33] Mulai hapus-barang.php
+[2025-05-18 09:21:33] Transaksi dimulai
+[2025-05-18 09:21:33] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:21:33] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:21:33] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:21:33] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:21:33] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:21:33] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:21:33] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:21:33] Selesai hapus-barang.php
+[2025-05-18 09:24:07] Mulai hapus-barang.php
+[2025-05-18 09:24:07] Transaksi dimulai
+[2025-05-18 09:24:07] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:24:07] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:24:07] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:07] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:07] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:24:07] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:24:07] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:24:07] Selesai hapus-barang.php
+[2025-05-18 09:24:41] Mulai hapus-barang.php
+[2025-05-18 09:24:41] Transaksi dimulai
+[2025-05-18 09:24:41] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:24:41] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:24:41] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:41] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:41] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:24:41] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:24:41] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:24:41] Selesai hapus-barang.php
+[2025-05-18 09:24:47] Mulai hapus-barang.php
+[2025-05-18 09:24:47] Transaksi dimulai
+[2025-05-18 09:24:47] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:24:48] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:24:48] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:48] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:24:48] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:24:48] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:24:48] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:24:48] Selesai hapus-barang.php
+[2025-05-18 09:25:20] Mulai hapus-barang.php
+[2025-05-18 09:25:20] Transaksi dimulai
+[2025-05-18 09:25:20] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:25:20] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:25:20] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:25:20] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:25:20] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:25:20] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:25:20] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:25:20] Selesai hapus-barang.php
+[2025-05-18 09:26:06] Mulai hapus-barang.php
+[2025-05-18 09:26:06] Transaksi dimulai
+[2025-05-18 09:26:06] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-18 09:26:06] Berhasil menghapus dari barang_keluar
+[2025-05-18 09:26:06] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:26:06] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-18 09:26:06] Menghapus dari tabel barang, affected rows: 1
+[2025-05-18 09:26:06] Transaksi di-commit, barang berhasil dihapus
+[2025-05-18 09:26:06] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-18 09:26:06] Selesai hapus-barang.php
+[2025-05-22 14:22:55] Mulai hapus-barang.php
+[2025-05-22 14:22:55] Transaksi dimulai
+[2025-05-22 14:22:55] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-22 14:22:55] Berhasil menghapus dari barang_keluar
+[2025-05-22 14:22:55] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-22 14:22:55] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-22 14:22:55] Menghapus dari tabel barang, affected rows: 1
+[2025-05-22 14:22:55] Transaksi di-commit, barang berhasil dihapus
+[2025-05-22 14:22:55] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-22 14:22:55] Selesai hapus-barang.php
+[2025-05-23 12:15:48] Mulai hapus-barang.php
+[2025-05-23 12:15:48] Transaksi dimulai
+[2025-05-23 12:15:48] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-23 12:15:48] Berhasil menghapus dari barang_keluar
+[2025-05-23 12:15:48] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:15:48] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:15:48] Menghapus dari tabel barang, affected rows: 1
+[2025-05-23 12:15:48] Transaksi di-commit, barang berhasil dihapus
+[2025-05-23 12:15:48] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-23 12:15:48] Selesai hapus-barang.php
+[2025-05-23 12:15:49] Mulai hapus-barang.php
+[2025-05-23 12:15:49] Transaksi dimulai
+[2025-05-23 12:15:49] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-23 12:15:49] Berhasil menghapus dari barang_keluar
+[2025-05-23 12:15:49] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:15:49] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:15:49] Menghapus dari tabel barang, affected rows: 0
+[2025-05-23 12:15:49] Transaksi di-rollback, barang tidak ditemukan
+[2025-05-23 12:15:49] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-23 12:15:49] Selesai hapus-barang.php
+[2025-05-23 12:16:06] Mulai hapus-barang.php
+[2025-05-23 12:16:06] Transaksi dimulai
+[2025-05-23 12:16:06] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-23 12:16:06] Berhasil menghapus dari barang_keluar
+[2025-05-23 12:16:06] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:16:06] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-23 12:16:06] Menghapus dari tabel barang, affected rows: 1
+[2025-05-23 12:16:06] Transaksi di-commit, barang berhasil dihapus
+[2025-05-23 12:16:06] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-23 12:16:06] Selesai hapus-barang.php
+[2025-05-23 23:13:47] Mulai hapus-barang.php
+[2025-05-23 23:13:47] Transaksi dimulai
+[2025-05-23 23:13:47] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-23 23:13:47] Berhasil menghapus dari barang_keluar
+[2025-05-23 23:13:47] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-23 23:13:47] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-23 23:13:47] Menghapus dari tabel barang, affected rows: 1
+[2025-05-23 23:13:47] Transaksi di-commit, barang berhasil dihapus
+[2025-05-23 23:13:47] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-23 23:13:47] Selesai hapus-barang.php
+[2025-05-23 23:35:40] Mulai hapus-barang.php
+[2025-05-23 23:35:40] Transaksi dimulai
+[2025-05-23 23:35:40] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-23 23:35:40] Berhasil menghapus dari barang_keluar
+[2025-05-23 23:35:40] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-23 23:35:41] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-23 23:35:41] Menghapus dari tabel barang, affected rows: 1
+[2025-05-23 23:35:41] Transaksi di-commit, barang berhasil dihapus
+[2025-05-23 23:35:41] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-23 23:35:41] Selesai hapus-barang.php
+[2025-05-25 04:34:16] Mulai hapus-barang.php
+[2025-05-25 04:34:16] Transaksi dimulai
+[2025-05-25 04:34:16] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 04:34:16] Berhasil menghapus dari barang_keluar
+[2025-05-25 04:34:16] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 04:34:17] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 04:34:17] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 04:34:17] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 04:34:17] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 04:34:17] Selesai hapus-barang.php
+[2025-05-25 04:34:51] Mulai hapus-barang.php
+[2025-05-25 04:34:51] Transaksi dimulai
+[2025-05-25 04:34:51] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 04:34:51] Berhasil menghapus dari barang_keluar
+[2025-05-25 04:34:51] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 04:34:51] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 04:34:51] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 04:34:51] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 04:34:51] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 04:34:51] Selesai hapus-barang.php
+[2025-05-25 05:10:05] Mulai hapus-barang.php
+[2025-05-25 05:10:05] Transaksi dimulai
+[2025-05-25 05:10:05] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 05:10:05] Berhasil menghapus dari barang_keluar
+[2025-05-25 05:10:05] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:10:05] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:10:05] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 05:10:05] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 05:10:05] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 05:10:05] Selesai hapus-barang.php
+[2025-05-25 05:19:56] Mulai hapus-barang.php
+[2025-05-25 05:19:56] Transaksi dimulai
+[2025-05-25 05:19:56] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 05:19:56] Berhasil menghapus dari barang_keluar
+[2025-05-25 05:19:56] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:19:56] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:19:56] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 05:19:56] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 05:19:56] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 05:19:56] Selesai hapus-barang.php
+[2025-05-25 05:20:28] Mulai hapus-barang.php
+[2025-05-25 05:20:28] Transaksi dimulai
+[2025-05-25 05:20:28] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 05:20:28] Berhasil menghapus dari barang_keluar
+[2025-05-25 05:20:28] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:20:28] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:20:28] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 05:20:28] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 05:20:28] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 05:20:28] Selesai hapus-barang.php
+[2025-05-25 05:53:18] Mulai hapus-barang.php
+[2025-05-25 05:53:18] Transaksi dimulai
+[2025-05-25 05:53:18] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 05:53:18] Berhasil menghapus dari barang_keluar
+[2025-05-25 05:53:18] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:53:18] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:53:18] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 05:53:18] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 05:53:18] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 05:53:18] Selesai hapus-barang.php
+[2025-05-25 05:57:00] Mulai hapus-barang.php
+[2025-05-25 05:57:00] Transaksi dimulai
+[2025-05-25 05:57:00] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 05:57:00] Berhasil menghapus dari barang_keluar
+[2025-05-25 05:57:00] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:57:00] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 05:57:00] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 05:57:00] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 05:57:00] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 05:57:00] Selesai hapus-barang.php
+[2025-05-25 06:55:00] Mulai hapus-barang.php
+[2025-05-25 06:55:00] Transaksi dimulai
+[2025-05-25 06:55:00] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 06:55:00] Berhasil menghapus dari barang_keluar
+[2025-05-25 06:55:00] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 06:55:00] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 06:55:00] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 06:55:00] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 06:55:00] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 06:55:00] Selesai hapus-barang.php
+[2025-05-25 06:56:33] Mulai hapus-barang.php
+[2025-05-25 06:56:33] Transaksi dimulai
+[2025-05-25 06:56:33] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 06:56:33] Berhasil menghapus dari barang_keluar
+[2025-05-25 06:56:33] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 06:56:33] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 06:56:33] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 06:56:33] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 06:56:33] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 06:56:33] Selesai hapus-barang.php
+[2025-05-25 07:02:09] Mulai hapus-barang.php
+[2025-05-25 07:02:09] Transaksi dimulai
+[2025-05-25 07:02:09] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 07:02:09] Berhasil menghapus dari barang_keluar
+[2025-05-25 07:02:09] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 07:02:09] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 07:02:09] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 07:02:09] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 07:02:09] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 07:02:09] Selesai hapus-barang.php
+[2025-05-25 07:30:00] Mulai hapus-barang.php
+[2025-05-25 07:30:00] Transaksi dimulai
+[2025-05-25 07:30:00] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-25 07:30:00] Berhasil menghapus dari barang_keluar
+[2025-05-25 07:30:00] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-25 07:30:00] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-25 07:30:00] Menghapus dari tabel barang, affected rows: 1
+[2025-05-25 07:30:00] Transaksi di-commit, barang berhasil dihapus
+[2025-05-25 07:30:00] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-25 07:30:00] Selesai hapus-barang.php
+[2025-05-27 14:32:26] Mulai hapus-barang.php
+[2025-05-27 14:32:26] Transaksi dimulai
+[2025-05-27 14:32:26] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-27 14:32:26] Berhasil menghapus dari barang_keluar
+[2025-05-27 14:32:26] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-27 14:32:26] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-27 14:32:26] Menghapus dari tabel barang, affected rows: 1
+[2025-05-27 14:32:26] Transaksi di-commit, barang berhasil dihapus
+[2025-05-27 14:32:26] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-27 14:32:26] Selesai hapus-barang.php
+[2025-05-29 18:11:53] Mulai hapus-barang.php
+[2025-05-29 18:11:53] Transaksi dimulai
+[2025-05-29 18:11:53] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-29 18:11:53] Berhasil menghapus dari barang_keluar
+[2025-05-29 18:11:53] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:11:53] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:11:53] Menghapus dari tabel barang, affected rows: 1
+[2025-05-29 18:11:53] Transaksi di-commit, barang berhasil dihapus
+[2025-05-29 18:11:53] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-29 18:11:53] Selesai hapus-barang.php
+[2025-05-29 18:12:03] Mulai hapus-barang.php
+[2025-05-29 18:12:03] Transaksi dimulai
+[2025-05-29 18:12:03] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-29 18:12:03] Berhasil menghapus dari barang_keluar
+[2025-05-29 18:12:03] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:03] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:03] Menghapus dari tabel barang, affected rows: 1
+[2025-05-29 18:12:03] Transaksi di-commit, barang berhasil dihapus
+[2025-05-29 18:12:03] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-29 18:12:03] Selesai hapus-barang.php
+[2025-05-29 18:12:08] Mulai hapus-barang.php
+[2025-05-29 18:12:08] Transaksi dimulai
+[2025-05-29 18:12:08] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-29 18:12:08] Berhasil menghapus dari barang_keluar
+[2025-05-29 18:12:08] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:08] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:08] Menghapus dari tabel barang, affected rows: 1
+[2025-05-29 18:12:08] Transaksi di-commit, barang berhasil dihapus
+[2025-05-29 18:12:08] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-29 18:12:08] Selesai hapus-barang.php
+[2025-05-29 18:12:12] Mulai hapus-barang.php
+[2025-05-29 18:12:12] Transaksi dimulai
+[2025-05-29 18:12:12] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-29 18:12:12] Berhasil menghapus dari barang_keluar
+[2025-05-29 18:12:12] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:12] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:12] Menghapus dari tabel barang, affected rows: 1
+[2025-05-29 18:12:12] Transaksi di-commit, barang berhasil dihapus
+[2025-05-29 18:12:12] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-29 18:12:12] Selesai hapus-barang.php
+[2025-05-29 18:12:17] Mulai hapus-barang.php
+[2025-05-29 18:12:17] Transaksi dimulai
+[2025-05-29 18:12:17] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-29 18:12:17] Berhasil menghapus dari barang_keluar
+[2025-05-29 18:12:17] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:17] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-29 18:12:17] Menghapus dari tabel barang, affected rows: 1
+[2025-05-29 18:12:17] Transaksi di-commit, barang berhasil dihapus
+[2025-05-29 18:12:17] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-29 18:12:17] Selesai hapus-barang.php
+[2025-05-30 15:25:42] Mulai hapus-barang.php
+[2025-05-30 15:25:42] Transaksi dimulai
+[2025-05-30 15:25:42] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-30 15:25:42] Berhasil menghapus dari barang_keluar
+[2025-05-30 15:25:42] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-30 15:25:42] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-30 15:25:42] Menghapus dari tabel barang, affected rows: 1
+[2025-05-30 15:25:42] Transaksi di-commit, barang berhasil dihapus
+[2025-05-30 15:25:42] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-30 15:25:42] Selesai hapus-barang.php
+[2025-05-30 16:07:46] Mulai hapus-barang.php
+[2025-05-30 16:07:46] Transaksi dimulai
+[2025-05-30 16:07:46] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-30 16:07:46] Berhasil menghapus dari barang_keluar
+[2025-05-30 16:07:46] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:07:46] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:07:46] Menghapus dari tabel barang, affected rows: 1
+[2025-05-30 16:07:46] Transaksi di-commit, barang berhasil dihapus
+[2025-05-30 16:07:46] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-30 16:07:46] Selesai hapus-barang.php
+[2025-05-30 16:42:59] Mulai hapus-barang.php
+[2025-05-30 16:42:59] Transaksi dimulai
+[2025-05-30 16:42:59] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-30 16:42:59] Berhasil menghapus dari barang_keluar
+[2025-05-30 16:42:59] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:42:59] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:42:59] Menghapus dari tabel barang, affected rows: 1
+[2025-05-30 16:42:59] Transaksi di-commit, barang berhasil dihapus
+[2025-05-30 16:42:59] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-30 16:42:59] Selesai hapus-barang.php
+[2025-05-30 16:53:05] Mulai hapus-barang.php
+[2025-05-30 16:53:05] Transaksi dimulai
+[2025-05-30 16:53:05] FOREIGN_KEY_CHECKS dinonaktifkan
+[2025-05-30 16:53:05] Berhasil menghapus dari barang_keluar
+[2025-05-30 16:53:05] Tabel produk_jadi tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:53:05] Tabel produk_terjual tidak memiliki kolom barang_id, dilewati
+[2025-05-30 16:53:05] Menghapus dari tabel barang, affected rows: 1
+[2025-05-30 16:53:05] Transaksi di-commit, barang berhasil dihapus
+[2025-05-30 16:53:05] FOREIGN_KEY_CHECKS diaktifkan kembali
+[2025-05-30 16:53:05] Selesai hapus-barang.php
