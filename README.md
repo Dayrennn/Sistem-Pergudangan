@@ -1,4 +1,4 @@
-Sistem Informasi Pergudangan Berbasis Web
+# Sistem Informasi Pergudangan Berbasis Web
 
 Sistem Informasi Pergudangan Berbasis Web adalah aplikasi yang dikembangkan untuk membantu pengelolaan stok, distribusi, dan pencatatan data pergudangan secara terstruktur dan terintegrasi. 
 Project ini dibuat sebagai media pembelajaran sekaligus portofolio, dengan studi kasus optimalisasi stok dan alur distribusi barang pada perusahaan.
